@@ -1,4 +1,10 @@
-remote_theme: "jekyll/minima"
+#remote_theme: "jekyll/minima"
+theme: minima
+  skin: auto
 
 title: SAV
-description: Statická analýza a verifikace
+#description: Statická analýza a verifikace
+
+author:
+  name: Ondřej Lengál
+  email: "lengal@fit.vutbr.cz"
