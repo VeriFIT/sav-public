@@ -3,7 +3,7 @@ title: "SAV: Informace pro studenty"
 lang: cs
 ---
 
-# [SAV](https://www.fit.vut.cz/study/course/294259): Informace pro studenty (zimní semestr 2026/2027)
+# [SAV](https://www.fit.vut.cz/study/course/SAV): Informace pro studenty (zimní semestr 2026/2027)
 
 ---
 
