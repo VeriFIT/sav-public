@@ -7,8 +7,10 @@ author:
   email: "lengal@fit.vutbr.cz"
 
 theme: just-the-docs
+
+# baseurl is supplied by the build workflow (--baseurl from actions/configure-pages),
+# so it is deliberately not set here; url only feeds the SEO/feed absolute links.
 url: "https://verifit.github.io"
-baseurl: "/sav-public"
 
 # just-the-docs needs jekyll-include-cache; seo-tag fills in <title>/OG tags.
 plugins:
