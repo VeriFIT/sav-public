@@ -10,3 +10,20 @@ title: SAV
 author:
   name: Ondřej Lengál
   email: "lengal@fit.vutbr.cz"
+
+# Minima 2.5 sets no front-matter default for `layout`, so pages without one
+# render as a bare HTML fragment (no <head>, no stylesheet, no header/footer).
+# `default` is the themed shell only: unlike `page`/`home` it does not emit its
+# own <h1> from `title`, which would duplicate the heading already in index.md.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Legacy 2025 page: keep the lecture PDFs (linked from index.md), but do not
+# publish the old HTML -- it references absolute paths from the FIT server
+# (/common/style.css, /common/img/...) that do not exist here.
+exclude:
+  - OLD-2025/index.html
+  - OLD-2025/00-BAK/
