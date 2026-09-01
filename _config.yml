@@ -6,14 +6,20 @@ author:
   name: Ondřej Lengál
   email: "lengal@fit.vutbr.cz"
 
-theme: just-the-docs
+# GitHub Pages' built-in build cannot install arbitrary theme gems, so the theme
+# is pulled in with jekyll-remote-theme. Pin the tag: an unpinned remote_theme
+# would silently change the site whenever upstream releases.
+remote_theme: just-the-docs/just-the-docs@v0.12.0
 
-# baseurl is supplied by the build workflow (--baseurl from actions/configure-pages),
-# so it is deliberately not set here; url only feeds the SEO/feed absolute links.
+# Set explicitly rather than relying on GitHub's injection, so that a local
+# build produces exactly the paths the deployed site uses.
 url: "https://verifit.github.io"
+baseurl: "/sav-public"
+repository: VeriFIT/sav-public
 
-# just-the-docs needs jekyll-include-cache; seo-tag fills in <title>/OG tags.
+# All three are on the GitHub Pages plugin allowlist.
 plugins:
+  - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-seo-tag
 
