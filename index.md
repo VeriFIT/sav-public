@@ -3,8 +3,11 @@ title: "SAV: Informace pro studenty"
 lang: cs
 ---
 
-# [SAV](https://www.fit.vut.cz/study/course/SAV) (zimní semestr 2026/2027)
+# [Statická analýza a verifikace](https://www.fit.vut.cz/study/course/SAV)
 {: .no_toc }
+
+zimní semestr 2026/2027
+{: .page-subtitle }
 
 <div id="page-toc" markdown="block">
 - TOC

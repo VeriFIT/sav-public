@@ -70,3 +70,13 @@
 .site-footer .scheme-toggle {
   display: none;
 }
+
+// The semester, set as a subtitle under the page heading. The theme already
+// pulls a paragraph tight against a heading, so this only needs its own size
+// and weight; the colour comes from the scheme so it holds up in dark too.
+.page-subtitle {
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: $body-text-color;
+}
