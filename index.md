@@ -24,27 +24,31 @@ zimní semestr 2026/2027
 
 * **Stream z přednášek** bude (snad) k dispozici na [YouTube](https://www.youtube.com/playlist?list=XXXXXXXXXXXXXXXXXXXXX).
 
-* **Projekt**: informace o projektu budou k dispozici
+---
 
-  * **Cílem projektu** je bližší seznámení se s vybraným nástrojem pro statickou analýzu a/nebo verifikaci a principy, na nichž je založen, reprodukce dostupných případových studií pro zvolený nástroj (ideálně s nějakými modifikacemi, aby se ověřilo, jak moc je nástroj vyladěn jen pro dané úlohy), vlastní experimenty s uvedeným nástrojem. Výjimečně lze akceptovat i nástroj pro dynamickou analýzu, který je založen na netriviálních formálních kořenech. Lze také experimentovat s "podpůrnými" nástroji např. pro SAT/SMT solving, práci s BDD, automaty, apod.
+## Projekt
 
-  * Projekt je za **30 bodů** celkem. Výsledky projektů se odevzdávají formou technické zprávy, která bude mít tři hlavní části:
+Informace o projektu budou k dispozici.
 
-    1. **Popis nástroje**, přičemž důraz je na **matematické/algoritmické/věcné principy**, na kterých nástroj stojí. Použití nástroje z uživatelského pohledu je možno uvést, ale v míře spíše menší, ideálně jako odrazový můstek pro popis principů.
-    2. **Popis reprodukovaných experimentů**: jaké experimenty byly reprodukovány, s jakými výsledky, k jakým pokusům o modifikace došlo, jak dopadly. (Pokud žádné stávající experimenty nejsou dostupné, je možno je nahradit větším důrazem na níže uvedený bod.)
-    3. **Popis vlastních originálních experimentů**: ideálně nad školními projekty, volně dostupným software apod. (Uměle vytvořené příklady jsou možné, ale ne úplně ideální, pokud neukazují něco zcela zásadního. Pouhá modifikace parametrů či dílčích částí stávajících experimentů spadá do výše uvedeného bodu.)
+* **Cílem projektu** je bližší seznámení se s vybraným nástrojem pro statickou analýzu a/nebo verifikaci a principy, na nichž je založen, reprodukce dostupných případových studií pro zvolený nástroj (ideálně s nějakými modifikacemi, aby se ověřilo, jak moc je nástroj vyladěn jen pro dané úlohy), vlastní experimenty s uvedeným nástrojem. Výjimečně lze akceptovat i nástroj pro dynamickou analýzu, který je založen na netriviálních formálních kořenech. Lze také experimentovat s "podpůrnými" nástroji např. pro SAT/SMT solving, práci s BDD, automaty, apod.
 
-    Každá část cca 3–-5 stran v podobném formátu jako diplomová práce, každá za 10 bodů, hodnoceno dle míry zpracování a originality. Při přípravě lze užít libovolné LLM, **ALE** je na Vás, abyste AI uřídili tak, že mi poskytne stručné, relevantní a pravdivé informace, které mi umožní se rychle zorientovat (za předpokladu nulové znalosti daného nástroje a jeho principů). Jinými slovy: nechci číst žádnou reklamu, nechci číst nic zbytečného, žádný AI slop, ale také chci vše dostatečně a rychle pochopit.
+* Projekt je za **30 bodů** celkem. Výsledky projektů se odevzdávají formou technické zprávy, která bude mít tři hlavní části:
 
-  * Do **BUDE UPŘESNĚNO je nutno registrovat nástroje**, na které se jednotliví studenti zaměří (jde zejména o kontrolu toho, zda se projekt zaměřený na daný nástroj dá rozumně řešit---pokud si vyberete triviální nástroj, budete zřejmě mít problémy o něm něco zajímavého sepsat). Registraci proveďte zasláním e-mailu [O. Lengálovi](mailto:lengal@fit.vutbr.cz).
+  1. **Popis nástroje**, přičemž důraz je na **matematické/algoritmické/věcné principy**, na kterých nástroj stojí. Použití nástroje z uživatelského pohledu je možno uvést, ale v míře spíše menší, ideálně jako odrazový můstek pro popis principů.
+  2. **Popis reprodukovaných experimentů**: jaké experimenty byly reprodukovány, s jakými výsledky, k jakým pokusům o modifikace došlo, jak dopadly. (Pokud žádné stávající experimenty nejsou dostupné, je možno je nahradit větším důrazem na níže uvedený bod.)
+  3. **Popis vlastních originálních experimentů**: ideálně nad školními projekty, volně dostupným software apod. (Uměle vytvořené příklady jsou možné, ale ne úplně ideální, pokud neukazují něco zcela zásadního. Pouhá modifikace parametrů či dílčích částí stávajících experimentů spadá do výše uvedeného bodu.)
 
-  * Termín odevzdání vypracované technické zprávy v pdf přes IS VUT/Moodle **BUDE UPŘESNĚN**.  <!-- **19. 12. 2025 12:00 CET**. -->
+  Každá část cca 3–-5 stran v podobném formátu jako diplomová práce, každá za 10 bodů, hodnoceno dle míry zpracování a originality. Při přípravě lze užít libovolné LLM, **ALE** je na Vás, abyste AI uřídili tak, že mi poskytne stručné, relevantní a pravdivé informace, které mi umožní se rychle zorientovat (za předpokladu nulové znalosti daného nástroje a jeho principů). Jinými slovy: nechci číst žádnou reklamu, nechci číst nic zbytečného, žádný AI slop, ale také chci vše dostatečně a rychle pochopit.
 
-  * Průběžně doplňovaný seznam zaregistrovaných studentů pro řešení projektu je uveden [ZDE](XXXXXXXXXXXXXXX).
+* Do **BUDE UPŘESNĚNO je nutno registrovat nástroje**, na které se jednotliví studenti zaměří (jde zejména o kontrolu toho, zda se projekt zaměřený na daný nástroj dá rozumně řešit---pokud si vyberete triviální nástroj, budete zřejmě mít problémy o něm něco zajímavého sepsat). Registraci proveďte zasláním e-mailu [O. Lengálovi](mailto:lengal@fit.vutbr.cz).
 
-  * **Prémiové body** (až 10 za vynikající výkon): Analýza zaměřená na kód Linuxového jádra (či jiného otevřeného OS) či některého reálného open source software, zejména v případě nalezení reálných nareportovaných chyb.
+* Termín odevzdání vypracované technické zprávy v pdf přes IS VUT/Moodle **BUDE UPŘESNĚN**.  <!-- **19. 12. 2025 12:00 CET**. -->
 
-  * **Odevzdání projektu:** přes elearning (Moodle) VUT. Odevzdat je nutno pdf soubor technické zprávy a volitelně zip/tgz s provedenými experimenty a jejich výsledky.
+* Průběžně doplňovaný seznam zaregistrovaných studentů pro řešení projektu je uveden [ZDE](XXXXXXXXXXXXXXX).
+
+* **Prémiové body** (až 10 za vynikající výkon): Analýza zaměřená na kód Linuxového jádra (či jiného otevřeného OS) či některého reálného open source software, zejména v případě nalezení reálných nareportovaných chyb.
+
+* **Odevzdání projektu:** přes elearning (Moodle) VUT. Odevzdat je nutno pdf soubor technické zprávy a volitelně zip/tgz s provedenými experimenty a jejich výsledky.
 
 ---
 
@@ -75,29 +79,36 @@ další přednášky budou průběžně doplňovány
 
 ## Monografie, přehledové články
 
-- B. Křena, T. Vojnar. [Automated Formal Analysis and Verification: An Overview](http://www.fit.vutbr.cz/~vojnar/Publications/ijgs-13.pdf). International Journal of General Systems, 42(4):335-365, Taylor and Francis, 2013.
+### Doporučený základ
+
+- B. Křena, T. Vojnar. [Automated Formal Analysis and Verification: An Overview](http://www.fit.vutbr.cz/~vojnar/Publications/ijgs-13.pdf). International Journal of General Systems, 42(4):335-365, Taylor and Francis, 2013. -- *stručný přehled celé oblasti, volně dostupný -- dobrý první text*
+- A. Moller, M.I. Schwartzbach. [Static Program Analysis](http://cs.au.dk/~amoeller/spa/). Department of Computer Science, University of Aarhus, Denmark, 2021. -- *volně dostupné skriptum: analýza toku dat, ukazatelové analýzy*
+- C. Baier, J.-P. Katoen. [Principles of Model Checking](https://mitpress.mit.edu/books/principles-model-checking). MIT Press, 2008. -- *standardní učebnice model checkingu: CTL/LTL, Büchiho automaty*
+- X. Rival, K. Yi. [Introduction to Static Analysis: An Abstract Interpretation Perspective](https://mitpress.mit.edu/books/introduction-static-analysis). MIT Press, 2020. -- *abstraktní interpretace od základů*
+- A.R. Bradley, Z. Manna. [The Calculus of Computation: Decision Procedures with Applications to Verification](http://www.springer.com/computer/theoretical+computer+science/book/978-3-540-74112-1). Springer, 2007. -- *deduktivní verifikace, Hoareova logika, rozhodovací procedury*
+- D. Kroening, O. Strichman. [Decision Procedures: An Algorithmic Point of View](http://www.decision-procedures.org/). Springer, 2016. -- *SAT a SMT solving algoritmicky*
+
+<details markdown="block">
+  <summary>Další literatura (13 titulů)</summary>
 
 - E.M. Clarke, T.A. Henzinger, H. Veith, R. Bloem (Eds.). [Handbook of Model Checking](https://www.springer.com/gp/book/9783319105741). Springer, 2018.
-- C. Baier, J.-P. Katoen. [Principles of Model Checking](https://mitpress.mit.edu/books/principles-model-checking). MIT Press, 2008.
 - E.M. Clarke, O. Grumberg, D. Kroening, D. Peled, H. Veith. [Model Checking](https://mitpress.mit.edu/books/model-checking-second-edition), 2nd edition. MIT Press, 2018.
 - G.J. Holzmann. [The SPIN Model Checker: Primer and Reference Manual](https://dl.acm.org/doi/10.5555/1405716). Addison-Wesley Professional, 2003.
 - M. Ben-Ari. [Principles of the Spin Model Checker](https://dl.acm.org/doi/10.5555/1349767). Springer, 2008.
 - A. Valmari. [The State Explosion Problem](https://link.springer.com/chapter/10.1007/3-540-65306-6_21). Lectures on Petri Nets I: Basic Models, Lecture Notes in Computer Science 1491, Springer-Verlag 1998, pp. 429-528. (starší, ale stále zajímavé)
 
-- X. Rival, K. Yi. [Introduction to Static Analysis: An Abstract Interpretation Perspective](https://mitpress.mit.edu/books/introduction-static-analysis). MIT Press, 2020.
-- A. Moller, M.I. Schwartzbach. [Static Program Analysis](http://cs.au.dk/~amoeller/spa/). Department of Computer Science, University of Aarhus, Denmark, 2021.
 - F. Nielson, H.R. Nielson, C. Hankin. [Principles of Program Analysis](https://www.springer.com/gp/book/9783540654100). Springer-Verlag, 2005.
 - U. Khedker, A. Sanyal, B. Sathe. [Data Flow Analysis: Theory and Practice](http://www.cse.iitb.ac.in/~uday/dfaBook-web/). CRC Press, 2009. Na stránce jsou k dispozici také odpovídající slajdy.
 - A.V. Aho, S. Lam, R. Sethi, J.D. Ullman. [Compilers: Principles, Techniques, and Tools](http://dragonbook.stanford.edu/). Addison Wesley, 2nd ed., 2006. Část věnovaná statické analýze.
 - B. Chess, J. West. Secure Programming with Static Analysis. Addison-Wesley Professional, 2007.
 
-- A.R. Bradley, Z. Manna. [The Calculus of Computation: Decision Procedures with Applications to Verification](http://www.springer.com/computer/theoretical+computer+science/book/978-3-540-74112-1). Springer, 2007.
-- D. Kroening, O. Strichman. [Decision Procedures: An Algorithmic Point of View](http://www.decision-procedures.org/). Springer, 2016.
 - A. Biere, M. Heule, H. Van Maaren, T. Walsh (Eds.). [Handbook of Satisfiability](https://www.iospress.nl/book/handbook-of-satisfiability/). IOS Press, 2009.
 
 - Y. Bertot, P. Castéran. [Interactive Theorem Proving and Program Development: Coq'Art: The Calculus of Inductive Constructions](http://www.labri.fr/perso/casteran/CoqArt/index.html). Springer, 2010.
 - B.C. Pierce. [Types and Programming Languages](http://www.cis.upenn.edu/~bcpierce/tapl/). The MIT Press, 2002.
 - B.C. Pierce (Ed.). [Advanced Topics in Types and Programming Languages](http://www.cis.upenn.edu/~bcpierce/attapl/). The MIT Press, 2004.
+
+</details>
 
 ---
 
