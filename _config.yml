@@ -43,11 +43,7 @@ back_to_top_text: "Nahoru"
 aux_links:
   "Karta předmětu (FIT)":
     - "https://www.fit.vut.cz/study/course/SAV"
-  "GitHub":
-    - "https://github.com/VeriFIT/sav-public"
 aux_links_new_tab: true
-
-footer_content: 'Dotazy: <a href="mailto:lengal@fit.vutbr.cz">O. Lengál</a>'
 
 # just-the-docs' `default` layout is the themed shell and does not emit its own
 # <h1>, so the heading at the top of index.md stays the only one.

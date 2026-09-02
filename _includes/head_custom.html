@@ -15,6 +15,11 @@
       return;
     }
 
+    // Only the top-level sections belong in the sidebar; drop the nested ones.
+    Array.prototype.forEach.call(toc.querySelectorAll('ul'), function (ul) {
+      ul.parentNode.removeChild(ul);
+    });
+
     // Adopt the theme's own nav classes so the list looks native.
     toc.classList.add('nav-list', 'toc-nav');
     Array.prototype.forEach.call(toc.querySelectorAll('ul'), function (ul) {
