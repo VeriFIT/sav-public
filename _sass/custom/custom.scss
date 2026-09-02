@@ -4,9 +4,69 @@
   display: none;
 }
 
-// With the search box and the aux links both gone, the theme's top bar has
-// nothing left in it, and would show as 3.75rem of dead space above the
-// content closed off by a bottom border.
-.side-bar + .main .main-header {
+// Colour-scheme toggle: the header on desktop, the page footer on mobile (the
+// theme hides the header on small screens). Kept quiet: it is a utility.
+//
+// The base rule below sets `display`, which beats the user agent's
+// `[hidden] { display: none }` -- so the hidden state has to be restated here,
+// or the button shows before the script un-hides it.
+.scheme-toggle[hidden] {
+  display: none;
+}
+.scheme-toggle {
+  display: inline-flex;
+  gap: 0.375rem;
+  align-items: center;
+  padding: 0.375rem;
+  line-height: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+  background: none;
+  border: 1px solid $border-color;
+  border-radius: 4px;
+
+  &:hover {
+    color: $link-color;
+    border-color: $link-color;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $link-color;
+    outline-offset: 2px;
+  }
+}
+
+.scheme-toggle-icon {
+  width: 1em;
+  height: 1em;
+  flex: none;
+}
+
+// Show the scheme being offered, not the one in use.
+.scheme-toggle .icon-sun {
+  display: none;
+}
+
+.scheme-toggle[data-effective="dark"] {
+  .icon-moon {
+    display: none;
+  }
+
+  .icon-sun {
+    display: block;
+  }
+}
+
+// In the header the button is one of two flex children, so space-between puts
+// it on the right; the padding matches what the theme gives its aux links.
+.main-header > .scheme-toggle {
+  align-self: center;
+  margin-right: 1rem;
+}
+
+// On desktop the header carries the toggle, so the sidebar's copy is dropped.
+.site-footer .scheme-toggle {
   display: none;
 }

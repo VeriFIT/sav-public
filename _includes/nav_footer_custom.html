@@ -1,7 +1,10 @@
 {%- comment -%}
-  This file exists only to be non-blank. The theme falls back to its own
-  "This site uses Just the Docs" attribution whenever this include renders
-  empty, in the sidebar (desktop) and in components/footer.html (mobile);
-  any output at all replaces it in both places.
+  This file must render something: the theme falls back to its own "This site
+  uses Just the Docs" attribution whenever it renders blank.
+
+  It is included both in the sidebar (desktop) and in components/footer.html
+  (mobile). The desktop copy is hidden in CSS -- on desktop the toggle lives in
+  the header -- which leaves the footer copy for small screens, where the theme
+  hides the header entirely.
 {%- endcomment -%}
-<span hidden></span>
+{% include scheme_toggle.html %}
