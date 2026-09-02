@@ -287,3 +287,6 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 ---
 
 Připomínky k obsahu stránky posílejte na e-mail: [lengal@fit.vutbr.cz](mailto:vojnar@fit.vutbr.cz)
+
+© 2026 Ondřej Lengál, Tomáš Vojnar
+{: .text-grey-dk-100 }
