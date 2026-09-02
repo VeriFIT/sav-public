@@ -41,7 +41,7 @@ back_to_top: true
 back_to_top_text: "Nahoru"
 
 aux_links:
-  "Karta předmětu (FIT)":
+  "Karta předmětu":
     - "https://www.fit.vut.cz/study/course/SAV"
 aux_links_new_tab: true
 
