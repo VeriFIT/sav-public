@@ -1,0 +1,11 @@
+// The in-content copy of the table of contents, hidden only while the script in
+// _includes/head_custom.html is there to move it into the sidebar.
+.has-sidebar-toc #page-toc {
+  display: none;
+}
+
+// The theme hides nested nav lists until their parent is expanded. The table of
+// contents has no expander buttons, so show every level.
+.toc-nav .nav-list-item > .nav-list {
+  display: block;
+}

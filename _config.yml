@@ -51,11 +51,19 @@ footer_content: 'Dotazy: <a href="mailto:lengal@fit.vutbr.cz">O. Lengál</a>'
 
 # just-the-docs' `default` layout is the themed shell and does not emit its own
 # <h1>, so the heading at the top of index.md stays the only one.
+#
+# The second rule is required: some of the theme's assets carry front matter
+# (assets/css/just-the-docs-head-nav.css), and an unscoped layout default wraps
+# them in the HTML shell, serving a whole web page where a stylesheet belongs.
 defaults:
   - scope:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: "assets"
+    values:
+      layout: null
 
 # Legacy 2025 page: keep the lecture PDFs (linked from index.md), but do not
 # publish the old HTML -- it references absolute paths from the FIT server

@@ -6,12 +6,10 @@ lang: cs
 # [SAV](https://www.fit.vut.cz/study/course/SAV): Informace pro studenty (zimní semestr 2026/2027)
 {: .no_toc }
 
-<details open markdown="block">
-  <summary>Obsah</summary>
-  {: .text-delta }
+<div id="page-toc" markdown="block">
 - TOC
 {:toc}
-</details>
+</div>
 
 ---
 
