@@ -3,7 +3,7 @@ title: "SAV: Informace pro studenty"
 lang: cs
 ---
 
-# [SAV](https://www.fit.vut.cz/study/course/SAV): Informace pro studenty (zimní semestr 2026/2027)
+# [SAV](https://www.fit.vut.cz/study/course/SAV) (zimní semestr 2026/2027)
 {: .no_toc }
 
 <div id="page-toc" markdown="block">
@@ -17,48 +17,52 @@ lang: cs
 
 *Zde se objevují upozornění na nové závažné informace, blížící se termíny apod.*
 
-- **Stream z přednášek** je k dispozici na [YouTube](https://www.youtube.com/playlist?list=XXXXXXXXXXXXXXXXXXXXX).
+* **Stream z přednášek** bude (snad) k dispozici na [YouTube](https://www.youtube.com/playlist?list=XXXXXXXXXXXXXXXXXXXXX).
 
-- **Projekt**:
+* **Projekt**: informace o projektu budou k dispozici
 
-  - **Cílem projektu** je bližší seznámení se s vybraným nástrojem pro statickou analýzu a/nebo verifikaci a principy, na nichž je založen, reprodukce dostupných případových studií pro zvolený nástroj (ideálně s nějakými modifikacemi, aby se ověřilo, jak moc je nástroj vyladěn jen pro dané úlohy), vlastní experimenty s uvedeným nástrojem, sepsání technické zprávy o zvoleném nástroji a provedených experimentech. Výjimečně lze akceptovat i nástroj pro dynamickou analýzu, který je založen na netriviálních formálních kořenech. Lze také experimentovat s "podpůrnými" nástroji např. pro SAT/SMT solving, práci s BDD apod.
+  * **Cílem projektu** je bližší seznámení se s vybraným nástrojem pro statickou analýzu a/nebo verifikaci a principy, na nichž je založen, reprodukce dostupných případových studií pro zvolený nástroj (ideálně s nějakými modifikacemi, aby se ověřilo, jak moc je nástroj vyladěn jen pro dané úlohy), vlastní experimenty s uvedeným nástrojem. Výjimečně lze akceptovat i nástroj pro dynamickou analýzu, který je založen na netriviálních formálních kořenech. Lze také experimentovat s "podpůrnými" nástroji např. pro SAT/SMT solving, práci s BDD, automaty, apod.
 
-  - Projekt je za **30 bodů** celkem. Výsledky projektů se odevzdávají formou technické zprávy, která bude mít tři hlavní části:
+  * Projekt je za **30 bodů** celkem. Výsledky projektů se odevzdávají formou technické zprávy, která bude mít tři hlavní části:
 
     1. **Popis nástroje**, přičemž důraz je na **matematické/algoritmické/věcné principy**, na kterých nástroj stojí. Použití nástroje z uživatelského pohledu je možno uvést, ale v míře spíše menší, ideálně jako odrazový můstek pro popis principů.
     2. **Popis reprodukovaných experimentů**: jaké experimenty byly reprodukovány, s jakými výsledky, k jakým pokusům o modifikace došlo, jak dopadly. (Pokud žádné stávající experimenty nejsou dostupné, je možno je nahradit větším důrazem na níže uvedený bod.)
     3. **Popis vlastních originálních experimentů**: ideálně nad školními projekty, volně dostupným software apod. (Uměle vytvořené příklady jsou možné, ale ne úplně ideální, pokud neukazují něco zcela zásadního. Pouhá modifikace parametrů či dílčích částí stávajících experimentů spadá do výše uvedeného bodu.)
 
-    Každá část cca 3–5 stran v podobném formátu jako diplomová práce, každá za 10 bodů, hodnoceno dle míry zpracování a originality. Při přípravě lze užít libovolné LLM, **ALE** je na Vás, abyste AI uřídili tak, že mi poskytne stručné, relevantní a pravdivé informace, které mi umožní se rychle zorientovat (za předpokladu nulové znalosti daného nástroje a jeho principů). Jinými slovy: nechci číst žádnou reklamu, nechci číst nic zbytečného, ale také chci vše dostatečně a rychle pochopit.
+    Každá část cca 3–-5 stran v podobném formátu jako diplomová práce, každá za 10 bodů, hodnoceno dle míry zpracování a originality. Při přípravě lze užít libovolné LLM, **ALE** je na Vás, abyste AI uřídili tak, že mi poskytne stručné, relevantní a pravdivé informace, které mi umožní se rychle zorientovat (za předpokladu nulové znalosti daného nástroje a jeho principů). Jinými slovy: nechci číst žádnou reklamu, nechci číst nic zbytečného, žádný AI slop, ale také chci vše dostatečně a rychle pochopit.
 
-  - Do **23. 11. 2025 je nutno registrovat nástroje**, na které se jednotliví studenti zaměří (jde zejména o kontrolu toho, zda se projekt zaměřený na daný nástroj dá rozumně řešit -- pokud si vyberete triviální nástroj, budete zřejmě mít problémy o něm něco sepsat). Registraci proveďte zasláním e-mailu [O. Lengálovi](mailto:lengal@fit.vutbr.cz).
+  * Do **BUDE UPŘESNĚNO je nutno registrovat nástroje**, na které se jednotliví studenti zaměří (jde zejména o kontrolu toho, zda se projekt zaměřený na daný nástroj dá rozumně řešit---pokud si vyberete triviální nástroj, budete zřejmě mít problémy o něm něco zajímavého sepsat). Registraci proveďte zasláním e-mailu [O. Lengálovi](mailto:lengal@fit.vutbr.cz).
 
-  - Termín odevzdání vypracované technické zprávy v pdf přes IS VUT/Moodle je **19. 12. 2025 12:00 CET**.
+  * Termín odevzdání vypracované technické zprávy v pdf přes IS VUT/Moodle **BUDE UPŘESNĚN**.  <!-- **19. 12. 2025 12:00 CET**. -->
 
-  - Průběžně doplňovaný seznam zaregistrovaných studentů pro řešení projektu je uveden [ZDE](private/Projekt-SAV-2026.txt).
+  * Průběžně doplňovaný seznam zaregistrovaných studentů pro řešení projektu je uveden [ZDE](XXXXXXXXXXXXXXX).
 
-  - **Prémiové body** (až 10 za vynikající výkon): Analýza zaměřená na kód Linuxového jádra (či jiného otevřeného OS) či některého reálného open source software, zejména v případě nalezení reálných nareportovaných chyb.
+  * **Prémiové body** (až 10 za vynikající výkon): Analýza zaměřená na kód Linuxového jádra (či jiného otevřeného OS) či některého reálného open source software, zejména v případě nalezení reálných nareportovaných chyb.
 
-  - **Odevzdání projektu:** přes elearning (Moodle) VUT. Odevzdat je nutno pdf soubor technické zprávy a volitelně zip/tgz s provedenými experimenty a jejich výsledky.
+  * **Odevzdání projektu:** přes elearning (Moodle) VUT. Odevzdat je nutno pdf soubor technické zprávy a volitelně zip/tgz s provedenými experimenty a jejich výsledky.
 
 ---
 
 ## Přednášky
 
-- [Úvod, základní pojmy](OLD-2025/Lectures/2025/sav-lecture-01.pdf)
-- [Logiky CTL*, CTL, LTL (a lehký úvod do explicitního CTL model checkingu)](OLD-2025/Lectures/2025/sav-lecture-02.pdf)
-- [LTL model checking, Büchiho automaty](OLD-2025/Lectures/2025/sav-lecture-03-ltl-mc.pdf) ([bez overlayů](OLD-2025/Lectures/2025/sav-lecture-03-ltl-mc-fast.pdf))
-- [Predikátová abstrakce](OLD-2025/Lectures/2025/sav-lecture-04.pdf) + [příklad na procvičení predikátové abstrakce](OLD-2025/Lectures/2025/SAV-priklad-predikatova-abstrakce.pdf)
-- [Abstraktní interpretace](OLD-2025/Lectures/2025/sav-lecture-05.pdf), [svazy](OLD-2025/Lectures/2025/sav-lecture-05b.pdf), [redukovaný produkt (F. Nečas)](OLD-2025/Lectures/2025/reduced-product.pdf) + [příklad na procvičení abstraktní interpretace](OLD-2025/Lectures/2025/SAV-priklad-abstraktni-interpretace.pdf)
-- [Deduktivní verifikace](OLD-2025/Lectures/2025/sav-lecture-06.pdf)
-- [Symbolická exekuce](OLD-2025/Lectures/2025/sav-lecture-07-symbolic-execution.pdf) ([bez overlayů](OLD-2025/Lectures/2025/sav-lecture-07-symbolic-execution-fast.pdf))
-- [Binární rozhodovací diagramy](OLD-2025/Lectures/2025/sav-lecture-08-bdds.pdf)
-- [Řešení SAT a SMT problémů](OLD-2025/Lectures/2025/sav-lecture-09.pdf)
-- [Analýza toku dat, ukazatelové analýzy](OLD-2025/Lectures/2025/sav-lecture-10.pdf) + [příklad na procvičení analýzy toku dat](OLD-2025/Lectures/2025/SAV-priklad-analyza-toku-dat.pdf)
+* [Úvod, základní pojmy](XXXXXXXXXXXXXXXXXX)
+
+další přednášky budou průběžně doplňovány
+<!--* [Logiky CTL*, CTL, LTL (a lehký úvod do explicitního CTL model checkingu)](OLD-2025/Lectures/2025/sav-lecture-02.pdf)
+* [LTL model checking, Büchiho automaty](OLD-2025/Lectures/2025/sav-lecture-03-ltl-mc.pdf) ([bez overlayů](OLD-2025/Lectures/2025/sav-lecture-03-ltl-mc-fast.pdf))
+* [Predikátová abstrakce](OLD-2025/Lectures/2025/sav-lecture-04.pdf) + [příklad na procvičení predikátové abstrakce](OLD-2025/Lectures/2025/SAV-priklad-predikatova-abstrakce.pdf)
+* [Abstraktní interpretace](OLD-2025/Lectures/2025/sav-lecture-05.pdf), [svazy](OLD-2025/Lectures/2025/sav-lecture-05b.pdf), [redukovaný produkt (F. Nečas)](OLD-2025/Lectures/2025/reduced-product.pdf) + [příklad na procvičení abstraktní interpretace](OLD-2025/Lectures/2025/SAV-priklad-abstraktni-interpretace.pdf)
+* [Deduktivní verifikace](OLD-2025/Lectures/2025/sav-lecture-06.pdf)
+* [Symbolická exekuce](OLD-2025/Lectures/2025/sav-lecture-07-symbolic-execution.pdf) ([bez overlayů](OLD-2025/Lectures/2025/sav-lecture-07-symbolic-execution-fast.pdf))
+* [Binární rozhodovací diagramy](OLD-2025/Lectures/2025/sav-lecture-08-bdds.pdf)
+* [Řešení SAT a SMT problémů](OLD-2025/Lectures/2025/sav-lecture-09.pdf)
+* [Analýza toku dat, ukazatelové analýzy](OLD-2025/Lectures/2025/sav-lecture-10.pdf) + [příklad na procvičení analýzy toku dat](OLD-2025/Lectures/2025/SAV-priklad-analyza-toku-dat.pdf)
+-->
 
 ### Demonstrační příklady -- mimo již výše uvedené
 
-- [Predikátová abstrakce, LTL a Büchiho automaty, BDDs, abstraktní interpretace, analýza toku dat](OLD-2025/Lectures/2025/SAV-procviceni-PA-BA-BDD-AI-DFA.pdf)
+* v případě potřeby bude průběžně doplňováno
+<!-- - [Predikátová abstrakce, LTL a Büchiho automaty, BDDs, abstraktní interpretace, analýza toku dat](OLD-2025/Lectures/2025/SAV-procviceni-PA-BA-BDD-AI-DFA.pdf) -->
 
 ---
 
@@ -286,4 +290,4 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 
 ---
 
-Připomínky k obsahu stránky posílejte na e-mail: [lengal@fit.vutbr.cz](mailto:vojnar@fit.vutbr.cz)
+Připomínky k obsahu stránky posílejte na e-mail: [lengal@fit.vutbr.cz](mailto:lengal@fit.vutbr.cz)
