@@ -59,6 +59,7 @@ defaults:
 # publish the old HTML -- it references absolute paths from the FIT server
 # (/common/style.css, /common/img/...) that do not exist here.
 exclude:
+  - README.md
   - OLD-2025/index.html
   - OLD-2025/00-BAK/
   - Gemfile
