@@ -13,6 +13,8 @@ lang: cs
 
 ---
 
+(původní stránka byla převzata po T. Vojnarovi)
+
 ## Informace, termíny
 
 *Zde se objevují upozornění na nové závažné informace, blížící se termíny apod.*
@@ -96,7 +98,7 @@ další přednášky budou průběžně doplňovány
 
 ---
 
-## Nástroje -- experimentální i průmyslové
+## Nástroje
 
 *Upozornění: (1) Níže jsou uvedeny jen některé příklady existujících nástrojů, v žádném případě se nejedná o úplný seznam! (2) Uvedené krátké charakteristiky nebyly vždy získány na základě vlastní zkušenosti s příslušným nástrojem a nemusí být přesné -- naleznete-li nějakou nepřesnost či rozpor, prosím napište mi.*
 
