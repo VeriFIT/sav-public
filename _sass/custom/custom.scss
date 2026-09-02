@@ -3,3 +3,10 @@
 .has-sidebar-toc #page-toc {
   display: none;
 }
+
+// With the search box and the aux links both gone, the theme's top bar has
+// nothing left in it, and would show as 3.75rem of dead space above the
+// content closed off by a bottom border.
+.side-bar + .main .main-header {
+  display: none;
+}

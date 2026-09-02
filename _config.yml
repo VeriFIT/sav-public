@@ -23,27 +23,13 @@ plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
 
-# Client-side search over headings and body text -- the main reason for this
-# theme, given the ~120 tools and references listed on the page.
-search_enabled: true
-search:
-  heading_level: 3
-  previews: 2
-  preview_words_before: 5
-  preview_words_after: 10
-  tokenizer_separator: /[\s/]+/
-  rel_url: true
+search_enabled: false
 
 # Clickable anchors next to every heading, and a back-to-top link -- both help
 # on a page this long.
 heading_anchors: true
 back_to_top: true
 back_to_top_text: "Nahoru"
-
-aux_links:
-  "Karta předmětu":
-    - "https://www.fit.vut.cz/study/course/SAV"
-aux_links_new_tab: true
 
 # just-the-docs' `default` layout is the themed shell and does not emit its own
 # <h1>, so the heading at the top of index.md stays the only one.
@@ -60,6 +46,14 @@ defaults:
       path: "assets"
     values:
       layout: null
+
+# With search_enabled: false the theme still ships its search index and lunr,
+# and `exclude` cannot reach theme files. Both are shadowed by an empty file of
+# the same name under assets/ (assets/js/zzzz-search-data.json is the theme's
+# own name for the index; assets/js/vendor/lunr.min.js). The shadows must be
+# *published* to take effect: Jekyll drops unpublished pages before it reads
+# theme assets, so a `published: false` stub would shadow nothing. Delete them
+# if search is ever turned back on.
 
 # Legacy 2025 page: keep the lecture PDFs (linked from index.md), but do not
 # publish the old HTML -- it references absolute paths from the FIT server
