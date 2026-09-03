@@ -130,7 +130,7 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 - [Smack](https://smackers.github.io/) -- omezený model checking C programů v kombinaci s řadou dalších analýz
 - Blast -- verifikace C programů (již starší nástroj), základem je predikátová abstrakce a interpolace, nová verze je dostupná [zde](https://forge.ispras.ru/projects/blast/) v rámci projektu Linux Driver Verification
 - [Divine](https://divine.fi.muni.cz/) -- model checking v paralelním a distribuovaném prostředí s využitím řady vstupních formátů (včetně C/C++)
-- [2LS](https://github.com/diffblue/2ls) -- open source analyzátor spojující principy omezeného model checkingu, k-indukce a abstraktní interpretace vyvíjené i na **FIT VUT**{: .label .label-fit }
+- [2LS](https://github.com/diffblue/2ls) -- open source analyzátor spojující principy omezeného model checkingu, k-indukce a abstraktní interpretace **FIT VUT**{: .label .label-fit }
 - [Diffblue](https://www.diffblue.com/) -- firma stojící za komercionalizací a dalším rozvojem např. CBMC či 2LS
 - [Ultimate Automizer](https://www.ultimate-pa.org/) -- C model checker využívající predikátové abstrakce a teorie automatů
 
@@ -153,7 +153,7 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 - [Uppaal](https://uppaal.com/) -- model checking RT systémů popsaných časovanými automaty
 
 - [Prism](https://www.prismmodelchecker.org/) -- pravděpodobnostní model checker nad Markovskými systémy
-- [Storm](https://www.stormchecker.org/) -- pravděpodobnostní model checker nad Markovskými systémy, syntéza pravděpodobnostních systémů (spolupráce i s **FIT VUT**{: .label .label-fit })
+- [Storm](https://www.stormchecker.org/) -- pravděpodobnostní model checker nad Markovskými systémy, syntéza pravděpodobnostních systémů **FIT VUT (spolupráce)**{: .label .label-fit }
 
 - [ProB](https://prob.hhu.de/w/index.php?title=Main_Page) -- model checker podporující metodu B pro vývoj vestavěných kritických systémů (aplikace např. v oblasti vlaků, metra apod.: Alstom, ClearSy, Siemens, Thales)
 
@@ -180,7 +180,7 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 - Parfait -- interní nástroj v rámci Oracle, analýza toku dat, chybové vzory, ...
 - [Frama-C](https://frama-c.com/) -- nástroj zahrnující abstraktní interpretaci pro C i deduktivní verifikaci C kódu anotovaného ACSL od francouzské agentury pro atomovou energii (CEA)
 - [Facebook/Meta Infer](https://fbinfer.com/) -- komerční (ale open source) nástroj založený na abstraktní interpretaci zaměřený na vybrané typy chyb
-- [Pluginy pro Facebook Infer a Frama-C](https://www.fit.vut.cz/research/group/verifit/public/tools/sa-plugins/) vyvíjené na **FIT VUT**{: .label .label-fit }
+- [Pluginy pro Facebook Infer a Frama-C](https://www.fit.vut.cz/research/group/verifit/public/tools/sa-plugins/) **FIT VUT**{: .label .label-fit }
 - [MOPSA analyzer](https://gitlab.com/mopsa/mopsa-analyzer) -- akademický framework pro tvorbu statických analyzátorů, hodně modulární, postavený na abstraktní interpretaci a napsaný v OCamlu (verze v prohlížeči: [link](https://try-mopsa.rmonat.fr/))
 - [Facebook SPARTA](https://engineering.fb.com/2019/02/20/open-source/sparta/) -- komerční (ale open source) prostředí pro tvorbu abstraktních interpretací používané např. v optimalizátoru ReDex pro Android
 - [PhASAR](https://phasar.org) -- prostředí pro tvorbu inter-procedurálních statických analýz nad C/C++ s důrazem na analýzu toku dat
@@ -212,7 +212,7 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 
 - [Cobra](https://space-ros.github.io/docs/rolling/Related-Projects/Cobra.html) -- interaktivní lightweight statická analýza zaměřená na vyhledávání chybových vzorů ve velmi velkých programech (od G. Holzmanna, autora Spinu, použito mj. v NASA)
 - [OpenScanHub](https://openscanhub.dev) -- lightweight statická analýza i dynamická analýza, obaluje řadu nástrojů jako cppcheck a zpřístupňuje je přátelsky vývojářům (použito mj. při vývoji RHEL)
-- [DiffKemp](https://github.com/diffkemp/diffkemp) -- využití statické analýzy pro ověřování, zda při refaktoringu nedochází k nežádoucím změnám sémantiky, aplikováno např. na jádro RHEL či GNU Linux (spolupráce **Red Hat** a **FIT VUT**{: .label .label-fit })
+- [DiffKemp](https://github.com/diffkemp/diffkemp) -- využití statické analýzy pro ověřování, zda při refaktoringu nedochází k nežádoucím změnám sémantiky, aplikováno např. na jádro RHEL či GNU Linux (spolupráce s **Red Hat**) **FIT VUT (spolupráce)**{: .label .label-fit }
 
 - [AbsInt](https://www.absint.com/) a [Astrée](https://www.astree.ens.fr/) -- komerční nástroje pro statickou analýzu (abstraktní interpretaci) vestavěných systémů, zejména analýzu časování, práce se zásobníkem a ověřování absence runtime chyb (spolehlivá)
 - [PolySpace](http://www.mathworks.com/products/polyspace/?s_cid=wiki_polyspace_2) -- komerční nástroje pro statickou analýzu vestavěných systémů reálného času v C, C++, Adě (abstraktní interpretace)
@@ -223,12 +223,12 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 
 - [gdfa: A Generic Data Flow Analyzer for GCC](https://www.cse.iitb.ac.in/grc/index.php?page=gdfa) -- jednoduché generické prostředí pro tvorbu analýz toku dat (demonstrující principy z knihy Uday P. Khedker, Amitabha Sanyal, Bageshri Karkare: Data Flow Analysis: Theory and Practice)
 
-- [Predator](https://www.fit.vut.cz/research/group/verifit/public/tools/predator/) -- nástroj pro verifikaci C programů zaměřený na manipulaci s dynamickými datovými strukturami z **FIT VUT**{: .label .label-fit } (využívá grafy, v principu založen na separační logice)
-- [Forester](https://www.fit.vut.cz/research/group/verifit/public/tools/forester/) -- starší, již nevyvíjený nástroj pro verifikaci C programů zaměřený na manipulaci s dynamickými datovými strukturami z **FIT VUT**{: .label .label-fit } (založen na stromových automatech)
+- [Predator](https://www.fit.vut.cz/research/group/verifit/public/tools/predator/) -- nástroj pro verifikaci C programů zaměřený na manipulaci s dynamickými datovými strukturami (využívá grafy, v principu založen na separační logice) **FIT VUT**{: .label .label-fit }
+- [Forester](https://www.fit.vut.cz/research/group/verifit/public/tools/forester/) -- starší, již nevyvíjený nástroj pro verifikaci C programů zaměřený na manipulaci s dynamickými datovými strukturami (založen na stromových automatech) **FIT VUT**{: .label .label-fit }
 
 - AProVE -- kombinace abstraktní interpretace pro ověření korektnosti práce s pamětí a vystavění abstraktního modelu, následovaná různými technikami pro dokazování konečnosti/složitosti běhu (s využitím SMT)
 
-- [Loopus](https://forsyte.at/software/) -- statická analýza zaměřená na automatickou analýzu složitosti u celočíselných programů v C (viz i jeho reinkarnace v rámci prostředí Infer -- pluginy pro Infer z **FIT VUT**{: .label .label-fit })
+- [Loopus](https://forsyte.at/software/) -- statická analýza zaměřená na automatickou analýzu složitosti u celočíselných programů v C (viz i jeho reinkarnace v rámci prostředí Infer -- pluginy pro Infer z **FIT VUT**)
 
 - ...
 
@@ -257,18 +257,18 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 - [what4](https://www.galois.com/articles/what4-new-library-to-help-devs-build-verification-program-tools) -- knihovna pro tvorbu analyzátorů nad SMT
 
 - [Z3str3RE](https://z3string.github.io/z3str3RE/readme.html) a [Z3str4](https://z3str4.github.io/) -- nástroje pro ověřování splnitelnosti formulí nad řetězci postavené nad SMT solverem Z3
-- [Noodler](https://github.com/VeriFIT/Z3-Noodler) -- nástroj pro ověřování splnitelnosti formulí nad řetězci (vyvíjený na **FIT VUT**{: .label .label-fit })
-- [Retro](https://github.com/VeriFIT/retro) -- nástroj pro ověřování splnitelnosti formulí nad řetězci (vyvíjený na **FIT VUT**{: .label .label-fit })
-- [Z3-Trau](https://github.com/diepbp/z3-trau) -- nástroj pro ověřování splnitelnosti formulí nad řetězci (spolupráce s **FIT VUT**{: .label .label-fit })
-- [Sloth](https://github.com/uuverifiers/sloth) -- nástroj pro ověřování splnitelnosti formulí nad řetězci (spolupráce s **FIT VUT**{: .label .label-fit })
+- [Z3-Noodler](https://github.com/VeriFIT/Z3-Noodler) -- nástroj pro ověřování splnitelnosti formulí nad řetězci **FIT VUT**{: .label .label-fit }
+- [Retro](https://github.com/VeriFIT/retro) -- nástroj pro ověřování splnitelnosti formulí nad řetězci **FIT VUT**{: .label .label-fit }
+- [Z3-Trau](https://github.com/diepbp/z3-trau) -- nástroj pro ověřování splnitelnosti formulí nad řetězci **FIT VUT (spolupráce)**{: .label .label-fit }
+- [Sloth](https://github.com/uuverifiers/sloth) -- nástroj pro ověřování splnitelnosti formulí nad řetězci **FIT VUT (spolupráce)**{: .label .label-fit }
 - [Ostrich](https://github.com/uuverifiers/ostrich) -- nástroj pro ověřování splnitelnosti formulí nad řetězci
 
 - [MONA](https://github.com/cs-au-dk/MONA) -- nástroj pro ověřování platnosti formulí logik WS1S a WS2S (jde o slabé monadické logiky druhého řádu, používáné často pro usuzování např. o stromových datových strukturách)
 
 - [SL-COMP](https://sl-comp.github.io) -- soutěž o nejlepší nástroj pro splnitelnost/inkluze formulí separační logiky (vhodná pro popis konfigurací programů s ukazateli a dynamickými datovými strukturami)
-- [Astral](https://github.com/TDacik/Astral) -- nástroj pro rozhodování silně-separační logiky (vyvíjený na **FIT VUT**{: .label .label-fit })
+- [Astral](https://github.com/TDacik/Astral) -- nástroj pro rozhodování silně-separační logiky **FIT VUT**{: .label .label-fit }
 - [Facebook/Meta Infer Biabduction](https://fbinfer.com/docs/1.1.0/checker-biabduction/) -- nástroj založený na separační logice a tzv. bi-abdukci pro programy s ukazateli a seznamy
-- [Broom](https://pajda.fit.vutbr.cz/rogalew/broom/-/tree/v0.0.1) -- první prototyp nástroje založený na separační logice a bi-abdukci pro programy s ukazateli, seznamy a nízko-úrovňovou manipulací s pamětí (vyvíjený na **FIT VUT**{: .label .label-fit })
+- [Broom](https://pajda.fit.vutbr.cz/rogalew/broom/-/tree/v0.0.1) -- první prototyp nástroje založený na separační logice a bi-abdukci pro programy s ukazateli, seznamy a nízko-úrovňovou manipulací s pamětí **FIT VUT**{: .label .label-fit }
 
 - [VCC](https://www.microsoft.com/en-us/research/project/vcc-a-verifier-for-concurrent-c/) -- verifikace anotovaných programů v C
 - [Nagini](https://github.com/marcoeilers/nagini) -- verifikace anotovaných programů v Pythonu
@@ -279,8 +279,8 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 ### Automaty nad nekonečnými slovy
 
 - [Spot](https://spot.lre.epita.fr/) -- knihovna a toolbox pro práci s automaty nad nekonečnými slovy, LTL formulemi, hrami, syntézu a model checking (včetně Jupyter bindingu pro interaktivní práci)
-- [Ranker](https://github.com/vhavlena/ranker) -- nástroj pro rank-based komplementaci Büchiho automatů (vyvíjený na **FIT VUT**{: .label .label-fit })
-- [Kofola](https://github.com/VeriFIT/kofola) -- nástroj pro decomposition-based komplementaci Büchiho automatů (vyvíjený na **FIT VUT**{: .label .label-fit })
+- [Ranker](https://github.com/vhavlena/ranker) -- nástroj pro rank-based komplementaci Büchiho automatů **FIT VUT**{: .label .label-fit }
+- [Kofola](https://github.com/VeriFIT/kofola) -- nástroj pro decomposition-based komplementaci Büchiho automatů **FIT VUT**{: .label .label-fit }
 - [GOAL](https://goal.im.ntu.edu.tw/wiki/doku.php) -- Java knihovna a GUI pro interaktivní práci s automaty nad nekonečnými slovy
 - [Tempus Fugit](https://benkeks.itch.io/tempusfugit) -- počítačová hra učící základy temporální logiky LTL
 
@@ -299,8 +299,8 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 
 ### Dynamická analýza, pokročilé testování
 
-- [ANaConDA](https://www.fit.vut.cz/research/group/verifit/public/tools/anaconda/) -- nástroj pro dynamickou analýzu paralelních C/C++ programů na binární úrovni vyvíjený na **FIT VUT**{: .label .label-fit }
-- [Perun](https://github.com/Perfexionists/perun) -- nástroj pro dynamickou analýzu výkonnosti programů (využívající i statickou analýzu z jiných nástrojů), automatická detekce výkonnostních regresí, optimalizovaný profiling -- vyvíjený na **FIT VUT**{: .label .label-fit }
+- [ANaConDA](https://www.fit.vut.cz/research/group/verifit/public/tools/anaconda/) -- nástroj pro dynamickou analýzu paralelních C/C++ programů na binární úrovni **FIT VUT**{: .label .label-fit }
+- [Perun](https://github.com/Perfexionists/perun) -- nástroj pro dynamickou analýzu výkonnosti programů (využívající i statickou analýzu z jiných nástrojů), automatická detekce výkonnostních regresí, optimalizovaný profiling **FIT VUT**{: .label .label-fit }
 - [RoadRunner](https://github.com/stephenfreund/RoadRunner) -- nástroj pro dynamickou analýzu paralelních Java programů
 - [psharp-ql](https://github.com/suvamM/psharp-ql) -- testování paralelních programů řízené učením
 - [Valgrind](https://valgrind.org/) -- dynamická analýza (založená na interpretaci) korektní práce s pamětí, vlákny, ...
