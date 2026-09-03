@@ -38,9 +38,9 @@ Informace o projektu budou k dispozici.
   2. **Popis reprodukovaných experimentů**: jaké experimenty byly reprodukovány, s jakými výsledky, k jakým pokusům o modifikace došlo, jak dopadly. (Pokud žádné stávající experimenty nejsou dostupné, je možno je nahradit větším důrazem na níže uvedený bod.)
   3. **Popis vlastních originálních experimentů**: ideálně nad školními projekty, volně dostupným software apod. (Uměle vytvořené příklady jsou možné, ale ne úplně ideální, pokud neukazují něco zcela zásadního. Pouhá modifikace parametrů či dílčích částí stávajících experimentů spadá do výše uvedeného bodu.)
 
-  Každá část cca 3–-5 stran v podobném formátu jako diplomová práce, každá za 10 bodů, hodnoceno dle míry zpracování a originality. Při přípravě lze užít libovolné LLM, **ALE** je na Vás, abyste AI uřídili tak, že mi poskytne stručné, relevantní a pravdivé informace, které mi umožní se rychle zorientovat (za předpokladu nulové znalosti daného nástroje a jeho principů). Jinými slovy: nechci číst žádnou reklamu, nechci číst nic zbytečného, žádný AI slop, ale také chci vše dostatečně a rychle pochopit.
+  Každá část cca 3–5 stran v podobném formátu jako diplomová práce, každá za 10 bodů, hodnoceno dle míry zpracování a originality. Při přípravě lze užít libovolné LLM, **ALE** je na Vás, abyste AI uřídili tak, že mi poskytne stručné, relevantní a pravdivé informace, které mi umožní se rychle zorientovat (za předpokladu nulové znalosti daného nástroje a jeho principů). Jinými slovy: nechci číst žádnou reklamu, nechci číst nic zbytečného, žádný AI slop, ale také chci vše dostatečně a rychle pochopit.
 
-* Do **BUDE UPŘESNĚNO je nutno registrovat nástroje**, na které se jednotliví studenti zaměří (jde zejména o kontrolu toho, zda se projekt zaměřený na daný nástroj dá rozumně řešit---pokud si vyberete triviální nástroj, budete zřejmě mít problémy o něm něco zajímavého sepsat). Registraci proveďte zasláním e-mailu [O. Lengálovi](mailto:lengal@fit.vutbr.cz).
+* Do **BUDE UPŘESNĚNO** je nutno registrovat nástroje, na které se jednotliví studenti zaměří (jde zejména o kontrolu toho, zda se projekt zaměřený na daný nástroj dá rozumně řešit -- pokud si vyberete triviální nástroj, budete zřejmě mít problémy o něm něco zajímavého sepsat). Registraci proveďte zasláním e-mailu [O. Lengálovi](mailto:lengal@fit.vutbr.cz).
 
 * Termín odevzdání vypracované technické zprávy v pdf přes IS VUT/Moodle **BUDE UPŘESNĚN**.  <!-- **19. 12. 2025 12:00 CET**. -->
 
@@ -118,46 +118,46 @@ další přednášky budou průběžně doplňovány
 
 Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Formal Methods](https://www.galois.com/articles/what-works-and-doesnt-selling-formal-methods)
 
-[Competition on Software Verification (SV-COMP)](http://sv-comp.sosy-lab.org/) -- mezinárodní soutěž ve verifikaci SW
+[Competition on Software Verification (SV-COMP)](https://sv-comp.sosy-lab.org/) -- mezinárodní soutěž ve verifikaci SW
 
 ### Model checking
 
-- [Spin](http://spinroot.com/spin/whatispin.html) -- verifikace (nejen) distribuovaných SW systémů, vstupem je specializovaný modelovací jazyk Promela (existují překladače do Promely z některých dalších jazyků)
+- [Spin](https://spinroot.com/spin/whatispin.html) -- verifikace (nejen) distribuovaných SW systémů, vstupem je specializovaný modelovací jazyk Promela (existují překladače do Promely z některých dalších jazyků)
 
-- [CPAchecker](http://cpachecker.sosy-lab.org/) -- konfigurovatelný nástroj pro verifikaci software, zahrnuje model checking založený na predikátové abstrakci a interpolaci
-- [CBMC](http://www.cprover.org/cbmc/) -- omezený model checking C programů
+- [CPAchecker](https://cpachecker.sosy-lab.org/) -- konfigurovatelný nástroj pro verifikaci software, zahrnuje model checking založený na predikátové abstrakci a interpolaci
+- [CBMC](https://www.cprover.org/cbmc/) -- omezený model checking C programů
 - [ESBMC](https://github.com/esbmc/esbmc) -- omezený model checking C programů
-- [Smack](http://smackers.github.io/) -- omezený model checking C programů v kombinaci s řadou dalších analýz
-- [Blast](http://mtc.epfl.ch/software-tools/blast/index-epfl.php) -- verifikace C programů (již starší nástroj), základem je predikátová abstrakce a interpolace, nová verze je dostupná [zde](http://forge.ispras.ru/projects/blast/) v rámci projektu Linux Driver Verification
-- [Divine](http://divine.fi.muni.cz/) -- model checking v paralelním a distribuovaném prostředí s využitím řady vstupních formátů (včetně C/C++)
-- [2LS](https://github.com/diffblue/2ls) -- open source analyzátor spojující principy omezeného model checkingu, k-indukce a abstraktní interpretace vyvíjené i na **FIT VUT**
-- [DiffBlue](http://www.diffblue.com/) -- firma stojící za komercionalizací a dalším rozvojem např. CBMC či 2LS
-- [Ultimate Automizer](http://ultimate.informatik.uni-freiburg.de/automizer/) -- C model checker využívající predikátové abstrakce a teorie automatů
+- [Smack](https://smackers.github.io/) -- omezený model checking C programů v kombinaci s řadou dalších analýz
+- Blast -- verifikace C programů (již starší nástroj), základem je predikátová abstrakce a interpolace, nová verze je dostupná [zde](https://forge.ispras.ru/projects/blast/) v rámci projektu Linux Driver Verification
+- [Divine](https://divine.fi.muni.cz/) -- model checking v paralelním a distribuovaném prostředí s využitím řady vstupních formátů (včetně C/C++)
+- [2LS](https://github.com/diffblue/2ls) -- open source analyzátor spojující principy omezeného model checkingu, k-indukce a abstraktní interpretace vyvíjené i na **FIT VUT**{: .label .label-purple }
+- [Diffblue](https://www.diffblue.com/) -- firma stojící za komercionalizací a dalším rozvojem např. CBMC či 2LS
+- [Ultimate Automizer](https://www.ultimate-pa.org/) -- C model checker využívající predikátové abstrakce a teorie automatů
 
 - [Java PathFinder -- JPF](https://github.com/javapathfinder) -- verifikace a testování Java programů (viz i dále zmíněné nástroje s ním spojené)
-- [JBMC](http://www.cprover.org/jbmc/) -- omezený model checking Java programů
-- [Lincheck](https://kotlinlang.org/docs/home.html) -- omezený model checking a stress testing paralelních Java/Scala/Kotlin programů
+- [JBMC](https://www.cprover.org/jbmc/) -- omezený model checking Java programů
+- [Lincheck](https://github.com/JetBrains/lincheck) -- omezený model checking a stress testing paralelních Java/Scala/Kotlin programů
 
 - [Kani](https://github.com/model-checking/kani) -- omezený model checking Rust programů (AWS)
 
-- [JKind](http://loonwerks.com/tools/jkind.html) -- nekonečně stavový model checking synchronních systémů popsaných v jazyce Lustre
+- [JKind](https://loonwerks.com/tools/jkind.html) -- nekonečně stavový model checking synchronních systémů popsaných v jazyce Lustre
 
-- [NuSMV a NuXMV](http://nusmv.fbk.eu/) -- symbolický model checking (nejen) HW
+- [NuSMV a NuXMV](https://nusmv.fbk.eu/) -- symbolický model checking (nejen) HW
 - [ABC](http://www.eecs.berkeley.edu/~alanmi/abc/) -- systém pro syntézu a verifikaci HW (zahrnuje omezený model checking, včetně různých pokročilých technik vycházejících ze základních myšlenek BMC)
 - [Cadence Verification](http://www.cadence.com/products/fv/pages/default.aspx) -- komerční nástroj pro verifikaci hardware od Cadence
-- [Questa Formal Verification Apps](https://www.mentor.com/products/fv/questa-formal-verification-apps) -- verifikace HW, Mentor Graphics
+- [Questa Formal Verification Apps](https://www.siemens.com/en-us/products/ic/questa-one/formal-verification/) -- verifikace HW, Siemens EDA
 - [Static and Formal Verification at Synopsys](https://www.synopsys.com/verification/static-and-formal-verification.html) -- verifikace HW, Synopsys
-- [Oski/NVIDIA](https://blogs.nvidia.com/blog/2021/10/08/oski-formal-verification/) -- společnost neprodukovala přímo nástroj, ale nabízela verifikaci s využitím model checkingu
+- [Oski/NVIDIA](https://blogs.nvidia.com/blog/oski-formal-verification/) -- společnost neprodukovala přímo nástroj, ale nabízela verifikaci s využitím model checkingu
 - [EBMC](https://www.cprover.org/ebmc/web/) -- omezený model checking pro Verilog (vychází ze CBMC)
 
-- [Uppaal](http://www.uppaal.com/) -- model checking RT systémů popsaných časovanými automaty
+- [Uppaal](https://uppaal.com/) -- model checking RT systémů popsaných časovanými automaty
 
-- [Prism](http://www.prismmodelchecker.org/) -- pravděpodobnostní model checker nad Markovskými systémy
-- [Storm](http://www.stormchecker.org/) -- pravděpodobnostní model checker nad Markovskými systémy, syntéza pravděpodobnostních systémů (spolupráce i s **FIT VUT**)
+- [Prism](https://www.prismmodelchecker.org/) -- pravděpodobnostní model checker nad Markovskými systémy
+- [Storm](https://www.stormchecker.org/) -- pravděpodobnostní model checker nad Markovskými systémy, syntéza pravděpodobnostních systémů (spolupráce i s **FIT VUT**{: .label .label-purple })
 
 - [ProB](https://prob.hhu.de/w/index.php?title=Main_Page) -- model checker podporující metodu B pro vývoj vestavěných kritických systémů (aplikace např. v oblasti vlaků, metra apod.: Alstom, ClearSy, Siemens, Thales)
 
-- [TTool](https://ttool.telecom-paristech.fr/) -- simulační i formální verifikace spolehlivosti (safety), bezpečnosti (security) i výkonnosti vestavěných systémů modelovaných pomocí SysML/UML s využitím model checkingu i automatizovaného dokazování teorémů (security, kryptografie)
+- [TTool](https://ttool.telecom-paris.fr/) -- simulační i formální verifikace spolehlivosti (safety), bezpečnosti (security) i výkonnosti vestavěných systémů modelovaných pomocí SysML/UML s využitím model checkingu i automatizovaného dokazování teorémů (security, kryptografie)
 
 - [nidhugg](https://github.com/nidhugg/nidhugg) -- stateless model checking pro paralelní programy se slabými paměťovými modely
 - [Concuerror](https://concuerror.com) -- stateless model checking pro paralelní programy v jazyce Erlang
@@ -169,28 +169,28 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 
 ### Statická analýza, analýza toku dat, abstraktní interpretace, symbolická exekuce, ...
 
-- [Přehled nástrojů pro statickou/dynamickou analýzu C kódu](http://www.spinroot.com/static/)
-- [Seznam nástrojů pro statickou analýzu na Wikipedii](http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
+- [Přehled nástrojů pro statickou/dynamickou analýzu C kódu](https://www.spinroot.com/static/)
+- [Seznam nástrojů pro statickou analýzu na Wikipedii](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
 - [Zajímavé srovnání některých nástrojů pro statickou analýzu](http://delab.csd.auth.gr/~katsaros/STPSA_2011.pdf)
 
-- [Synopsys Static Analysis](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) -- komerční nástroje pro statickou analýzu C/C++/Java (chybové vzory, analýza toku dat, vylučování nereálných chyb), dříve Coverity
-- [Klocwork](http://www.klocwork.com/products/insight/index.php) -- komerční nástroje pro statickou analýzu C/C++/Java/C# (chybové vzory, analýza toku dat, vylučování nereálných chyb)
-- [CodeSonar](https://codesecure.com/our-products/codesonar/) -- komerční nástroje pro statickou analýzu C/C++ (chybové vzory, analýza toku dat, vylučování nereálných chyb)
-- [Microsoft Code analysis for C/C++](https://docs.microsoft.com/en-us/visualstudio/code-quality/code-analysis-for-c-cpp-overview?view=vs-2017) -- statická analýza vestavěná do VisualStudia, (zřejmě) chybové vzory a symbolická exekuce založená na využití SMT (Z3), možnost anotací
-- [Parfait](https://labs.oracle.com/pls/apex/f?p=LABS:project_details:0:13) -- interní nástroj v rámci Oracle, analýza toku dat, chybové vzory, ...
+- [Black Duck](https://www.blackduck.com/) -- komerční nástroje pro statickou analýzu C/C++/Java (chybové vzory, analýza toku dat, vylučování nereálných chyb), dříve Coverity, pak Synopsys
+- [Klocwork](https://www.perforce.com/products/klocwork) (Perforce) -- komerční nástroje pro statickou analýzu C/C++/Java/C# (chybové vzory, analýza toku dat, vylučování nereálných chyb)
+- [CodeSonar](https://www.adacore.com/codesecure) (AdaCore) -- komerční nástroje pro statickou analýzu C/C++ (chybové vzory, analýza toku dat, vylučování nereálných chyb)
+- [Microsoft Code analysis for C/C++](https://learn.microsoft.com/en-us/cpp/code-quality/code-analysis-for-c-cpp-overview?view=msvc-170&viewFallbackFrom=vs-2017) -- statická analýza vestavěná do VisualStudia, (zřejmě) chybové vzory a symbolická exekuce založená na využití SMT (Z3), možnost anotací
+- Parfait -- interní nástroj v rámci Oracle, analýza toku dat, chybové vzory, ...
 - [Frama-C](https://frama-c.com/) -- nástroj zahrnující abstraktní interpretaci pro C i deduktivní verifikaci C kódu anotovaného ACSL od francouzské agentury pro atomovou energii (CEA)
-- [Facebook/Meta Infer](http://fbinfer.com/) -- komerční (ale open source) nástroj založený na abstraktní interpretaci zaměřený na vybrané typy chyb
-- [Pluginy pro Facebook Infer a Frama-C](http://www.fit.vutbr.cz/research/groups/verifit/tools/sa-plugins/) vyvíjené na **FIT VUT**
+- [Facebook/Meta Infer](https://fbinfer.com/) -- komerční (ale open source) nástroj založený na abstraktní interpretaci zaměřený na vybrané typy chyb
+- [Pluginy pro Facebook Infer a Frama-C](https://www.fit.vut.cz/research/group/verifit/public/tools/sa-plugins/) vyvíjené na **FIT VUT**{: .label .label-purple }
 - [MOPSA analyzer](https://gitlab.com/mopsa/mopsa-analyzer) -- akademický framework pro tvorbu statických analyzátorů, hodně modulární, postavený na abstraktní interpretaci a napsaný v OCamlu (verze v prohlížeči: [link](https://try-mopsa.rmonat.fr/))
-- [Facebook SPARTA](https://code.fb.com/open-source/sparta/) -- komerční (ale open source) prostředí pro tvorbu abstraktních interpretací používané např. v optimalizátoru ReDex pro Android
+- [Facebook SPARTA](https://engineering.fb.com/2019/02/20/open-source/sparta/) -- komerční (ale open source) prostředí pro tvorbu abstraktních interpretací používané např. v optimalizátoru ReDex pro Android
 - [PhASAR](https://phasar.org) -- prostředí pro tvorbu inter-procedurálních statických analýz nad C/C++ s důrazem na analýzu toku dat
 - [SeaHorn](https://seahorn.github.io/) -- framework pro analýzu programů postavený nad LLVM využívající překladu programů do Hornových klauzulí a jejich následné řešení
 
 - [Coderrect Scanner](https://coderrect.com) -- statická analýza (ukazatelová analýza, analýza toku dat) specializovaná pro detekci chyb typu "data race"
 
-- [Slam](http://www.research.microsoft.com/slam/) a [Static Driver Verifier](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/static-driver-verifier) -- verifikace driverů v MS Windows, dříve s využitím predikátové abstrakce, nyní s využitím symbolické exekuce založené na SMT
-- [KLEE](http://klee.llvm.org/) -- kombinace statické analýzy založené na symbolickém provádění a testování
-- [Symbiotic](https://github.com/staticafi/symbiotic) -- kombinuje instrumentaci kódu o monitory sledující verifikované vlastnosti, slicing a symbolickou exekuci (existuje i kombinace s nástrojem [Predator](http://www.fit.vutbr.cz/research/groups/verifit/tools/predator/))
+- [Slam](https://www.microsoft.com/en-us/research/project/slam/) a [Static Driver Verifier](https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/static-driver-verifier) -- verifikace driverů v MS Windows, dříve s využitím predikátové abstrakce, nyní s využitím symbolické exekuce založené na SMT
+- [KLEE](https://klee.llvm.org/) -- kombinace statické analýzy založené na symbolickém provádění a testování
+- [Symbiotic](https://github.com/staticafi/symbiotic) -- kombinuje instrumentaci kódu o monitory sledující verifikované vlastnosti, slicing a symbolickou exekuci (existuje i kombinace s nástrojem [Predator](https://www.fit.vut.cz/research/group/verifit/public/tools/predator/))
 - [SymbolicPathFinder (SPF)](https://github.com/SymbolicPathFinder/jpf-symbc) -- rozšíření výše uvedeného nástroje JPF pro symbolickou exekuci Java programů
 - [Java Ranger](https://github.com/vaibhavbsharma/java-ranger) -- úprava výše uvedeného nástroje SPF s podporou slučování symbolických cest
 - [JDart](https://github.com/tudo-aqua/jdart) -- úprava výše uvedeného nástroje JPF pro konkolické provádění
@@ -199,89 +199,89 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 
 - [Certora Prover](https://www.certora.com/prover) -- symbolická exekuce pro formální verifikaci smart kontraktů (Certora). K dispozici také další nástroje: fuzz testing.
 
-- [FindBugs](http://findbugs.sourceforge.net) -- volně dostupný nástroj pro statickou analýzu Javy (chybové vzory, analýza toku dat)
+- [FindBugs](https://findbugs.sourceforge.net/) -- volně dostupný nástroj pro statickou analýzu Javy (chybové vzory, analýza toku dat)
 - [SpotBugs](https://spotbugs.github.io/) -- nástupce FindBugs
-- [Clang Static Analyzer](http://clang-analyzer.llvm.org/) -- statický analyzátor pro C a Objective C, využívá chybové vzory, analýzu toku dat
+- [Clang Static Analyzer](https://clang-analyzer.llvm.org/) -- statický analyzátor pro C a Objective C, využívá chybové vzory, analýzu toku dat
 - [Statická analýza v GCC](https://gcc.gnu.org/wiki/StaticAnalyzer) -- statická analýza založená na chybových vzorech (např. double-free, use-after-free) v rámci gcc
-- [SonarQube](https://www.sonarqube.org/) -- analýza toku dat a chybové vzory pro vybrané chyby v kódu i zranitelnosti z hlediska bezpečnosti nad řadou různých jazyků
-- [Cppcheck](http://cppcheck.sourceforge.net/) -- statický analyzátor pro C/C++, relativně jednoduché vyhledávání chybových vzorů v toku řízení
-- [cppclean](http://code.google.com/p/cppclean/) -- statická analýza programu v C++, vyhledávání chybových vzorů nad AST
-- [Sparse](http://en.wikipedia.org/wiki/Sparse) -- statická analýza pro jádro Linuxu
+- [SonarQube](https://www.sonarsource.com/products/sonarqube/) -- analýza toku dat a chybové vzory pro vybrané chyby v kódu i zranitelnosti z hlediska bezpečnosti nad řadou různých jazyků
+- [Cppcheck](https://cppcheck.sourceforge.io/) -- statický analyzátor pro C/C++, relativně jednoduché vyhledávání chybových vzorů v toku řízení
+- [cppclean](https://github.com/myint/cppclean) -- statická analýza programu v C++, vyhledávání chybových vzorů nad AST
+- [Sparse](https://en.wikipedia.org/wiki/Sparse) -- statická analýza pro jádro Linuxu
 
 - [PHPStan](https://phpstan.org) -- statická analýza php
 
 - [Cobra](https://space-ros.github.io/docs/rolling/Related-Projects/Cobra.html) -- interaktivní lightweight statická analýza zaměřená na vyhledávání chybových vzorů ve velmi velkých programech (od G. Holzmanna, autora Spinu, použito mj. v NASA)
 - [OpenScanHub](https://openscanhub.dev) -- lightweight statická analýza i dynamická analýza, obaluje řadu nástrojů jako cppcheck a zpřístupňuje je přátelsky vývojářům (použito mj. při vývoji RHEL)
-- [DiffKemp](https://github.com/viktormalik/diffkemp) -- využití statické analýzy pro ověřování, zda při refaktoringu nedochází k nežádoucím změnám sémantiky, aplikováno např. na jádro RHEL či GNU Linux (spolupráce **Red Hat a FIT VUT**)
+- [DiffKemp](https://github.com/diffkemp/diffkemp) -- využití statické analýzy pro ověřování, zda při refaktoringu nedochází k nežádoucím změnám sémantiky, aplikováno např. na jádro RHEL či GNU Linux (spolupráce **Red Hat** a **FIT VUT**{: .label .label-purple })
 
-- [AbsInt](http://www.absint.com) a [Astrée](http://www.astree.ens.fr/) -- komerční nástroje pro statickou analýzu (abstraktní interpretaci) vestavěných systémů, zejména analýzu časování, práce se zásobníkem a ověřování absence runtime chyb (spolehlivá)
+- [AbsInt](https://www.absint.com/) a [Astrée](https://www.astree.ens.fr/) -- komerční nástroje pro statickou analýzu (abstraktní interpretaci) vestavěných systémů, zejména analýzu časování, práce se zásobníkem a ověřování absence runtime chyb (spolehlivá)
 - [PolySpace](http://www.mathworks.com/products/polyspace/?s_cid=wiki_polyspace_2) -- komerční nástroje pro statickou analýzu vestavěných systémů reálného času v C, C++, Adě (abstraktní interpretace)
 
 - [Daisy](https://github.com/malyzajko/daisy) -- analýza toku dat a analýza založená na optimalizačních problémech pro analýzu a optimalizaci numerických programů
 
-- [TAJS](http://www.brics.dk/TAJS/) -- statická analýza pro JavaScript
+- [TAJS](https://www.brics.dk/TAJS/) -- statická analýza pro JavaScript
 
-- [gdfa: A Generic Data Flow Analyzer for GCC](http://www.cse.iitb.ac.in/grc/index.php?page=gdfa) -- jednoduché generické prostředí pro tvorbu analýz toku dat (demonstrující principy z knihy Uday P. Khedker, Amitabha Sanyal, Bageshri Karkare: Data Flow Analysis: Theory and Practice)
+- [gdfa: A Generic Data Flow Analyzer for GCC](https://www.cse.iitb.ac.in/grc/index.php?page=gdfa) -- jednoduché generické prostředí pro tvorbu analýz toku dat (demonstrující principy z knihy Uday P. Khedker, Amitabha Sanyal, Bageshri Karkare: Data Flow Analysis: Theory and Practice)
 
-- [Predator](http://www.fit.vutbr.cz/research/groups/verifit/tools/predator/) -- nástroj pro verifikaci C programů zaměřený na manipulaci s dynamickými datovými strukturami z **FIT VUT** (využívá grafy, v principu založen na separační logice)
-- [Forester](http://www.fit.vutbr.cz/research/groups/verifit/tools/forester/) -- starší, již nevyvíjený nástroj pro verifikaci C programů zaměřený na manipulaci s dynamickými datovými strukturami z **FIT VUT** (založen na stromových automatech)
+- [Predator](https://www.fit.vut.cz/research/group/verifit/public/tools/predator/) -- nástroj pro verifikaci C programů zaměřený na manipulaci s dynamickými datovými strukturami z **FIT VUT**{: .label .label-purple } (využívá grafy, v principu založen na separační logice)
+- [Forester](https://www.fit.vut.cz/research/group/verifit/public/tools/forester/) -- starší, již nevyvíjený nástroj pro verifikaci C programů zaměřený na manipulaci s dynamickými datovými strukturami z **FIT VUT**{: .label .label-purple } (založen na stromových automatech)
 
-- [AProVE](http://aprove.informatik.rwth-aachen.de) -- kombinace abstraktní interpretace pro ověření korektnosti práce s pamětí a vystavění abstraktního modelu, následovaná různými technikami pro dokazování konečnosti/složitosti běhu (s využitím SMT)
+- AProVE -- kombinace abstraktní interpretace pro ověření korektnosti práce s pamětí a vystavění abstraktního modelu, následovaná různými technikami pro dokazování konečnosti/složitosti běhu (s využitím SMT)
 
-- [Loopus](http://forsyte.at/software/loopus/) -- statická analýza zaměřená na automatickou analýzu složitosti u celočíselných programů v C (viz i jeho reinkarnace v rámci prostředí Infer -- pluginy pro Infer z **FIT VUT**)
+- [Loopus](https://forsyte.at/software/) -- statická analýza zaměřená na automatickou analýzu složitosti u celočíselných programů v C (viz i jeho reinkarnace v rámci prostředí Infer -- pluginy pro Infer z **FIT VUT**{: .label .label-purple })
 
 - ...
 
 ### Theorem proving, SAT solving, SMT solving, rozhodovací procedury
 
-- [PVS](http://pvs.csl.sri.com/) -- interaktivní theorem prover
-- [Coq](http://coq.inria.fr/) -- interaktivní theorem prover
-- [HOL](http://www.cl.cam.ac.uk/research/hvg/HOL/) -- interaktivní theorem prover
-- [ACL2](http://www.cs.utexas.edu/users/moore/acl2/) -- interaktivní theorem prover
+- [PVS](https://pvs.csl.sri.com/) -- interaktivní theorem prover
+- [Rocq](https://rocq-prover.org/) (dříve Coq) -- interaktivní theorem prover
+- [HOL](https://www.cl.cam.ac.uk/research/hvg/HOL/) -- interaktivní theorem prover
+- [ACL2](https://www.cs.utexas.edu/~moore/acl2/) -- interaktivní theorem prover
 - [Lean](https://leanprover.github.io/) -- interaktivní theorem prover
 
 - [Vampire](https://vprover.github.io) -- plně automatický theorem prover pro predikátovou logiku s řadou dalších zajímavých funkcionalit (výpočet interpolantů apod.)
 
-- [SAT Competition](http://www.satcompetition.org/) -- soutěž o nejlepší nástroj pro řešení SAT problému
+- [SAT Competition](https://satcompetition.github.io/) -- soutěž o nejlepší nástroj pro řešení SAT problému
 - [MapleSAT](https://maplesat.github.io/solvers.html)
-- [Kissat SAT Solver](http://fmv.jku.at/kissat/)
-- [CaDiCaL](http://fmv.jku.at/cadical/)
+- [Kissat SAT Solver](https://fmv.jku.at/kissat/)
+- [CaDiCaL](https://fmv.jku.at/cadical/)
 
-- [SMT-Comp](http://www.smtcomp.org/) -- soutěž o nejlepší nástroj pro řešení problémů SMT (SAT modulo teorie)
+- [SMT-Comp](https://smt-comp.github.io/) -- soutěž o nejlepší nástroj pro řešení problémů SMT (SAT modulo teorie)
 - [Z3](https://github.com/Z3Prover/z3)
-- [MathSAT](http://mathsat.fbk.eu/)
+- [MathSAT](https://mathsat.fbk.eu/)
 - [CVC5](https://cvc5.github.io/)
-- [Yices2](http://yices.csl.sri.com/)
-- [Boolector](http://fmv.jku.at/boolector/)
-- [SMTInterpol](http://ultimate.informatik.uni-freiburg.de/smtinterpol/)
-- [what4](https://galois.com/blog/2020/07/what4-new-library-to-help-devs-build-verification-program-tools/) -- knihovna pro tvorbu analyzátorů nad SMT
+- [Yices2](https://yices.csl.sri.com/)
+- [Boolector](https://fmv.jku.at/boolector/)
+- [SMTInterpol](https://ultimate.informatik.uni-freiburg.de/smtinterpol/)
+- [what4](https://www.galois.com/articles/what4-new-library-to-help-devs-build-verification-program-tools) -- knihovna pro tvorbu analyzátorů nad SMT
 
 - [Z3str3RE](https://z3string.github.io/z3str3RE/readme.html) a [Z3str4](https://z3str4.github.io/) -- nástroje pro ověřování splnitelnosti formulí nad řetězci postavené nad SMT solverem Z3
-- [Noodler](https://github.com/VeriFIT/Z3-Noodler) -- nástroj pro ověřování splnitelnosti formulí nad řetězci (vyvíjený na **FIT VUT**)
-- [Retro](https://github.com/VeriFIT/retro) -- nástroj pro ověřování splnitelnosti formulí nad řetězci (vyvíjený na **FIT VUT**)
-- [Z3-Trau](https://github.com/diepbp/z3-trau) -- nástroj pro ověřování splnitelnosti formulí nad řetězci (spolupráce s **FIT VUT**)
-- [Sloth](https://github.com/uuverifiers/sloth) -- nástroj pro ověřování splnitelnosti formulí nad řetězci (spolupráce s **FIT VUT**)
+- [Noodler](https://github.com/VeriFIT/Z3-Noodler) -- nástroj pro ověřování splnitelnosti formulí nad řetězci (vyvíjený na **FIT VUT**{: .label .label-purple })
+- [Retro](https://github.com/VeriFIT/retro) -- nástroj pro ověřování splnitelnosti formulí nad řetězci (vyvíjený na **FIT VUT**{: .label .label-purple })
+- [Z3-Trau](https://github.com/diepbp/z3-trau) -- nástroj pro ověřování splnitelnosti formulí nad řetězci (spolupráce s **FIT VUT**{: .label .label-purple })
+- [Sloth](https://github.com/uuverifiers/sloth) -- nástroj pro ověřování splnitelnosti formulí nad řetězci (spolupráce s **FIT VUT**{: .label .label-purple })
 - [Ostrich](https://github.com/uuverifiers/ostrich) -- nástroj pro ověřování splnitelnosti formulí nad řetězci
 
 - [MONA](https://github.com/cs-au-dk/MONA) -- nástroj pro ověřování platnosti formulí logik WS1S a WS2S (jde o slabé monadické logiky druhého řádu, používáné často pro usuzování např. o stromových datových strukturách)
 
 - [SL-COMP](https://sl-comp.github.io) -- soutěž o nejlepší nástroj pro splnitelnost/inkluze formulí separační logiky (vhodná pro popis konfigurací programů s ukazateli a dynamickými datovými strukturami)
-- [Astral](https://github.com/TDacik) -- nástroj pro rozhodování silně-separační logiky (vyvíjený na **FIT VUT**)
-- [Facebook/Meta Infer Biabduction](https://fbinfer.com/docs/checker-biabduction) -- nástroj založený na separační logice a tzv. bi-abdukci pro programy s ukazateli a seznamy
-- [Broom](https://pajda.fit.vutbr.cz/rogalew/broom/-/tree/v0.0.1) -- první prototyp nástroje založený na separační logice a bi-abdukci pro programy s ukazateli, seznamy a nízko-úrovňovou manipulací s pamětí (vyvíjený na **FIT VUT**)
+- [Astral](https://github.com/TDacik/Astral) -- nástroj pro rozhodování silně-separační logiky (vyvíjený na **FIT VUT**{: .label .label-purple })
+- [Facebook/Meta Infer Biabduction](https://fbinfer.com/docs/1.1.0/checker-biabduction/) -- nástroj založený na separační logice a tzv. bi-abdukci pro programy s ukazateli a seznamy
+- [Broom](https://pajda.fit.vutbr.cz/rogalew/broom/-/tree/v0.0.1) -- první prototyp nástroje založený na separační logice a bi-abdukci pro programy s ukazateli, seznamy a nízko-úrovňovou manipulací s pamětí (vyvíjený na **FIT VUT**{: .label .label-purple })
 
-- [VCC](http://research.microsoft.com/en-us/projects/vcc/) -- verifikace anotovaných programů v C
+- [VCC](https://www.microsoft.com/en-us/research/project/vcc-a-verifier-for-concurrent-c/) -- verifikace anotovaných programů v C
 - [Nagini](https://github.com/marcoeilers/nagini) -- verifikace anotovaných programů v Pythonu
-- [ESC/Java2](http://kindsoftware.com/products/opensource/ESCJava2/) -- verifikace anotovaných programů v Javě
+- [ESC/Java2](https://web.archive.org/web/20231206163206/https://www.kindsoftware.com/products/opensource/escjava2/) -- verifikace anotovaných programů v Javě
 
 - ...
 
 ### Automaty nad nekonečnými slovy
 
-- [Spot](https://spot.lrde.epita.fr/) -- knihovna a toolbox pro práci s automaty nad nekonečnými slovy, LTL formulemi, hrami, syntézu a model checking (včetně Jupyter bindingu pro interaktivní práci)
-- [Ranker](https://github.com/vhavlena/ranker) -- nástroj pro rank-based komplementaci Büchiho automatů (vyvíjený na **FIT VUT**)
-- [Kofola](https://github.com/VeriFIT/kofola) -- nástroj pro decomposition-based komplementaci Büchiho automatů (vyvíjený na **FIT VUT**)
-- [GOAL](http://goal.im.ntu.edu.tw/wiki/doku.php) -- Java knihovna a GUI pro interaktivní práci s automaty nad nekonečnými slovy
+- [Spot](https://spot.lre.epita.fr/) -- knihovna a toolbox pro práci s automaty nad nekonečnými slovy, LTL formulemi, hrami, syntézu a model checking (včetně Jupyter bindingu pro interaktivní práci)
+- [Ranker](https://github.com/vhavlena/ranker) -- nástroj pro rank-based komplementaci Büchiho automatů (vyvíjený na **FIT VUT**{: .label .label-purple })
+- [Kofola](https://github.com/VeriFIT/kofola) -- nástroj pro decomposition-based komplementaci Büchiho automatů (vyvíjený na **FIT VUT**{: .label .label-purple })
+- [GOAL](https://goal.im.ntu.edu.tw/wiki/doku.php) -- Java knihovna a GUI pro interaktivní práci s automaty nad nekonečnými slovy
 - [Tempus Fugit](https://benkeks.itch.io/tempusfugit) -- počítačová hra učící základy temporální logiky LTL
 
 ### BDD
@@ -292,18 +292,18 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 
 ### Analýza a verifikace neuronových sítí
 
-- [alpha-beta-CROWN](https://github.com/huanzhang12/alpha-beta-CROWN) -- založeno na aproximujících optimalizačních metodách s využitím efektivních výpočetních heuristik
+- [alpha-beta-CROWN](https://github.com/Verified-Intelligence/alpha-beta-CROWN) -- založeno na aproximujících optimalizačních metodách s využitím efektivních výpočetních heuristik
 - [Eran](https://github.com/eth-sri/eran) -- analýza robustnosti neuronových sítí s využitím abstraktní interpretace
 - [DeepGame](https://github.com/TrustAI/DeepGame) -- verifikace neuronových sítí s využitím teorie her
 - [Reluplex](https://github.com/guykatzz/ReluplexCav2017) -- verifikace neuronových sítí s využitím SMT
 
 ### Dynamická analýza, pokročilé testování
 
-- [ANaConDA](http://www.fit.vutbr.cz/research/groups/verifit/tools/anaconda/) -- nástroj pro dynamickou analýzu paralelních C/C++ programů na binární úrovni vyvíjený na **FIT VUT**
-- [Perun](https://github.com/tfiedor/perun) -- nástroj pro dynamickou analýzu výkonnosti programů (využívající i statickou analýzu z jiných nástrojů), automatická detekce výkonnostních regresí, optimalizovaný profiling -- vyvíjený na **FIT VUT**
+- [ANaConDA](https://www.fit.vut.cz/research/group/verifit/public/tools/anaconda/) -- nástroj pro dynamickou analýzu paralelních C/C++ programů na binární úrovni vyvíjený na **FIT VUT**{: .label .label-purple }
+- [Perun](https://github.com/Perfexionists/perun) -- nástroj pro dynamickou analýzu výkonnosti programů (využívající i statickou analýzu z jiných nástrojů), automatická detekce výkonnostních regresí, optimalizovaný profiling -- vyvíjený na **FIT VUT**{: .label .label-purple }
 - [RoadRunner](https://github.com/stephenfreund/RoadRunner) -- nástroj pro dynamickou analýzu paralelních Java programů
 - [psharp-ql](https://github.com/suvamM/psharp-ql) -- testování paralelních programů řízené učením
-- [Valgrind](http://valgrind.org/) -- dynamická analýza (založená na interpretaci) korektní práce s pamětí, vlákny, ...
+- [Valgrind](https://valgrind.org/) -- dynamická analýza (založená na interpretaci) korektní práce s pamětí, vlákny, ...
 - [Coyote](https://microsoft.github.io/coyote/) -- systematické testování (se snahou vybírat zajímavá proložení) paralelního kódu od firmy Microsoft, použito např. v rámci vývoje Microsoft Azure...
 
 ---

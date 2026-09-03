@@ -80,3 +80,10 @@
   font-weight: 300;
   color: $body-text-color;
 }
+
+// The FIT VUT pills sit inside running text, where the theme's +-0.5rem side
+// margins leave a visible gap before a closing bracket.
+.main-content .label-purple {
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+}
