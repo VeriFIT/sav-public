@@ -81,9 +81,16 @@
   color: $body-text-color;
 }
 
-// The FIT VUT pills sit inside running text, where the theme's +-0.5rem side
-// margins leave a visible gap before a closing bracket.
-.main-content .label-purple {
+// The FIT VUT pills. They sit inside running text, where the theme's +-0.5rem
+// side margins leave a visible gap before a closing bracket.
+//
+// The text is dark, not the theme's white: white on this blue is only 2.92:1,
+// which fails AA at the label's 11px, while #27262b reaches 5.14:1. The colour
+// is a literal rather than a scheme variable on purpose -- the pill carries its
+// own background, so it reads the same in both schemes.
+.main-content .label-fit {
   margin-right: 0.25rem;
   margin-left: 0.25rem;
+  color: #27262b;
+  background-color: #4a9eda;
 }
