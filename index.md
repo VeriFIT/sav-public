@@ -81,32 +81,32 @@ další přednášky budou průběžně doplňovány
 
 ### Doporučený základ
 
-- B. Křena, T. Vojnar. [Automated Formal Analysis and Verification: An Overview](http://www.fit.vutbr.cz/~vojnar/Publications/ijgs-13.pdf). International Journal of General Systems, 42(4):335-365, Taylor and Francis, 2013. -- *stručný přehled celé oblasti, volně dostupný -- dobrý první text*
-- A. Moller, M.I. Schwartzbach. [Static Program Analysis](http://cs.au.dk/~amoeller/spa/). Department of Computer Science, University of Aarhus, Denmark, 2021. -- *volně dostupné skriptum: analýza toku dat, ukazatelové analýzy*
+- B. Křena, T. Vojnar. [Automated Formal Analysis and Verification: An Overview](https://www.fit.vut.cz/person/vojnar/public/Publications/ijgs-13.pdf). International Journal of General Systems, 42(4):335-365, Taylor and Francis, 2013. -- *stručný přehled celé oblasti, volně dostupný -- dobrý první text*
+- A. Møller, M.I. Schwartzbach. [Static Program Analysis](https://cs.au.dk/~amoeller/spa/). Aarhus University, 2026. -- *volně dostupné skriptum: analýza toku dat, ukazatelové analýzy*
 - C. Baier, J.-P. Katoen. [Principles of Model Checking](https://mitpress.mit.edu/books/principles-model-checking). MIT Press, 2008. -- *standardní učebnice model checkingu: CTL/LTL, Büchiho automaty*
 - X. Rival, K. Yi. [Introduction to Static Analysis: An Abstract Interpretation Perspective](https://mitpress.mit.edu/books/introduction-static-analysis). MIT Press, 2020. -- *abstraktní interpretace od základů*
-- A.R. Bradley, Z. Manna. [The Calculus of Computation: Decision Procedures with Applications to Verification](http://www.springer.com/computer/theoretical+computer+science/book/978-3-540-74112-1). Springer, 2007. -- *deduktivní verifikace, Hoareova logika, rozhodovací procedury*
-- D. Kroening, O. Strichman. [Decision Procedures: An Algorithmic Point of View](http://www.decision-procedures.org/). Springer, 2016. -- *SAT a SMT solving algoritmicky*
+- A.R. Bradley, Z. Manna. [The Calculus of Computation: Decision Procedures with Applications to Verification](https://link.springer.com/computer/theoretical+computer+science/book/978-3-540-74112-1). Springer, 2007. -- *deduktivní verifikace, Hoareova logika, rozhodovací procedury*
+- D. Kroening, O. Strichman. [Decision Procedures: An Algorithmic Point of View](https://www.decision-procedures.org/). Springer, 2016. -- *SAT a SMT solving algoritmicky*
 
 <details markdown="block">
   <summary>Další literatura (13 titulů)</summary>
 
-- E.M. Clarke, T.A. Henzinger, H. Veith, R. Bloem (Eds.). [Handbook of Model Checking](https://www.springer.com/gp/book/9783319105741). Springer, 2018.
+- E.M. Clarke, T.A. Henzinger, H. Veith, R. Bloem (Eds.). [Handbook of Model Checking](https://link.springer.com/book/9783319105741). Springer, 2018.
 - E.M. Clarke, O. Grumberg, D. Kroening, D. Peled, H. Veith. [Model Checking](https://mitpress.mit.edu/books/model-checking-second-edition), 2nd edition. MIT Press, 2018.
 - G.J. Holzmann. [The SPIN Model Checker: Primer and Reference Manual](https://dl.acm.org/doi/10.5555/1405716). Addison-Wesley Professional, 2003.
 - M. Ben-Ari. [Principles of the Spin Model Checker](https://dl.acm.org/doi/10.5555/1349767). Springer, 2008.
 - A. Valmari. [The State Explosion Problem](https://link.springer.com/chapter/10.1007/3-540-65306-6_21). Lectures on Petri Nets I: Basic Models, Lecture Notes in Computer Science 1491, Springer-Verlag 1998, pp. 429-528. (starší, ale stále zajímavé)
 
-- F. Nielson, H.R. Nielson, C. Hankin. [Principles of Program Analysis](https://www.springer.com/gp/book/9783540654100). Springer-Verlag, 2005.
-- U. Khedker, A. Sanyal, B. Sathe. [Data Flow Analysis: Theory and Practice](http://www.cse.iitb.ac.in/~uday/dfaBook-web/). CRC Press, 2009. Na stránce jsou k dispozici také odpovídající slajdy.
-- A.V. Aho, S. Lam, R. Sethi, J.D. Ullman. [Compilers: Principles, Techniques, and Tools](http://dragonbook.stanford.edu/). Addison Wesley, 2nd ed., 2006. Část věnovaná statické analýze.
-- B. Chess, J. West. Secure Programming with Static Analysis. Addison-Wesley Professional, 2007.
+- F. Nielson, H.R. Nielson, C. Hankin. [Principles of Program Analysis](https://link.springer.com/book/9783540654100). Springer-Verlag, 2005.
+- U. Khedker, A. Sanyal, B. Sathe. [Data Flow Analysis: Theory and Practice](https://www.cse.iitb.ac.in/~uday/dfaBook-web/). CRC Press, 2009. Na stránce jsou k dispozici také odpovídající slajdy.
+- A.V. Aho, M.S. Lam, R. Sethi, J.D. Ullman. [Compilers: Principles, Techniques, and Tools](http://dragonbook.stanford.edu/). Addison Wesley, 2nd ed., 2006. Část věnovaná statické analýze.
+- B. Chess, J. West. [Secure Programming with Static Analysis](https://dl.acm.org/doi/10.5555/1406221). Addison-Wesley Professional, 2007.
 
-- A. Biere, M. Heule, H. Van Maaren, T. Walsh (Eds.). [Handbook of Satisfiability](https://www.iospress.nl/book/handbook-of-satisfiability/). IOS Press, 2009.
+- A. Biere, M. Heule, H. Van Maaren, T. Walsh (Eds.). [Handbook of Satisfiability](https://www.iospress.com/catalog/books/handbook-of-satisfiability-2), 2nd edition. IOS Press, 2021.
 
-- Y. Bertot, P. Castéran. [Interactive Theorem Proving and Program Development: Coq'Art: The Calculus of Inductive Constructions](http://www.labri.fr/perso/casteran/CoqArt/index.html). Springer, 2010.
-- B.C. Pierce. [Types and Programming Languages](http://www.cis.upenn.edu/~bcpierce/tapl/). The MIT Press, 2002.
-- B.C. Pierce (Ed.). [Advanced Topics in Types and Programming Languages](http://www.cis.upenn.edu/~bcpierce/attapl/). The MIT Press, 2004.
+- Y. Bertot, P. Castéran. [Interactive Theorem Proving and Program Development: Coq'Art: The Calculus of Inductive Constructions](https://www.labri.fr/perso/casteran/CoqArt/index.html). Springer, 2010.
+- B.C. Pierce. [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl/). MIT Press, 2002.
+- B.C. Pierce (Ed.). [Advanced Topics in Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/attapl/). MIT Press, 2004.
 
 </details>
 
