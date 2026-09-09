@@ -40,7 +40,7 @@ Informace o projektu budou k dispozici.
 
   Každá část cca 3–5 stran v podobném formátu jako diplomová práce, každá za 10 bodů, hodnoceno dle míry zpracování a originality. Při přípravě lze užít libovolné LLM, **ALE** je na Vás, abyste AI uřídili tak, že mi poskytne stručné, relevantní a pravdivé informace, které mi umožní se rychle zorientovat (za předpokladu nulové znalosti daného nástroje a jeho principů). Jinými slovy: nechci číst žádnou reklamu, nechci číst nic zbytečného, žádný AI slop, ale také chci vše dostatečně a rychle pochopit.
 
-* Do **BUDE UPŘESNĚNO je nutno registrovat nástroje**, na které se jednotliví studenti zaměří (jde zejména o kontrolu toho, zda se projekt zaměřený na daný nástroj dá rozumně řešit---pokud si vyberete triviální nástroj, budete zřejmě mít problémy o něm něco zajímavého sepsat). Registraci proveďte [zasláním e-mailu O. Lengálovi](mailto:lengal@fit.vutbr.cz?subject=%5BSAV-26%5D%20Registace%20projektu).
+* Do **22. 11. 2026 je nutno registrovat nástroje**, na které se jednotliví studenti zaměří (jde zejména o kontrolu toho, zda se projekt zaměřený na daný nástroj dá rozumně řešit---pokud si vyberete triviální nástroj, budete zřejmě mít problémy o něm něco zajímavého sepsat). Registraci proveďte [zasláním e-mailu O. Lengálovi](mailto:lengal@fit.vutbr.cz?subject=%5BSAV-26%5D%20Registace%20projektu).
 
 * Termín odevzdání vypracované technické zprávy v pdf přes IS VUT/Moodle **BUDE UPŘESNĚN**.  <!-- **19. 12. 2025 12:00 CET**. -->
 
