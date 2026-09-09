@@ -46,7 +46,7 @@ Informace o projektu budou k dispozici.
 
 * Průběžně doplňovaný seznam zaregistrovaných studentů pro řešení projektu je uveden [ZDE](XXXXXXXXXXXXXXX).
 
-* **Prémiové body** (až 10 za vynikající výkon): Analýza zaměřená na kód Linuxového jádra (či jiného otevřeného OS) či některého reálného open source software, zejména v případě nalezení reálných nareportovaných chyb.
+* **Prémiové body** (až 10 za vynikající výkon): Analýza zaměřená na kód Linuxového jádra (či jiného otevřeného OS) či některého reálného open source software, zejména v případě nalezení reálných nareportovaných chyb.  Možnost kombinace s AI.
 
 * **Odevzdání projektu:** přes elearning (Moodle) VUT. Odevzdat je nutno pdf soubor technické zprávy a volitelně zip/tgz s provedenými experimenty a jejich výsledky.
 
