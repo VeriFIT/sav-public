@@ -3,3 +3,103 @@
 .has-sidebar-toc #page-toc {
   display: none;
 }
+
+// Colour-scheme toggle: the header on desktop, the page footer on mobile (the
+// theme hides the header on small screens). Kept quiet: it is a utility.
+//
+// The base rule below sets `display`, which beats the user agent's
+// `[hidden] { display: none }` -- so the hidden state has to be restated here,
+// or the button shows before the script un-hides it.
+.scheme-toggle[hidden] {
+  display: none;
+}
+.scheme-toggle {
+  display: inline-flex;
+  gap: 0.375rem;
+  align-items: center;
+  padding: 0.375rem;
+  line-height: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+  background: none;
+  border: 1px solid $border-color;
+  border-radius: 4px;
+
+  &:hover {
+    color: $link-color;
+    border-color: $link-color;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $link-color;
+    outline-offset: 2px;
+  }
+}
+
+.scheme-toggle-icon {
+  width: 1em;
+  height: 1em;
+  flex: none;
+}
+
+// Show the scheme being offered, not the one in use.
+.scheme-toggle .icon-sun {
+  display: none;
+}
+
+.scheme-toggle[data-effective="dark"] {
+  .icon-moon {
+    display: none;
+  }
+
+  .icon-sun {
+    display: block;
+  }
+}
+
+// In the header the button is one of two flex children, so space-between puts
+// it on the right; the padding matches what the theme gives its aux links.
+.main-header > .scheme-toggle {
+  align-self: center;
+  margin-right: 1rem;
+}
+
+// On desktop the header carries the toggle, so the sidebar's copy is dropped.
+.site-footer .scheme-toggle {
+  display: none;
+}
+
+// The semester, set as a subtitle under the page heading. The theme already
+// pulls a paragraph tight against a heading, so this only needs its own size
+// and weight; the colour comes from the scheme so it holds up in dark too.
+.page-subtitle {
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: $body-text-color;
+}
+
+// The FIT VUT pills, used as a trailing tag on each entry: the sentence keeps
+// saying "vyvíjený na FIT VUT" in plain text, and the pill only marks the entry
+// for scanning. Smaller and lighter than the theme's label, which is sized for
+// a standalone heading badge, and nudged off the baseline so it does not
+// enlarge the line box. All the spacing is on the left, since nothing follows.
+//
+// font-size needs !important only because the theme sets it that way.
+//
+// The text stays the theme's white by choice; for the record it measures
+// 2.92:1 against this blue. The colour is a literal rather than a scheme
+// variable on purpose -- the pill carries its own background, so it reads the
+// same in both schemes.
+.main-content .label-fit {
+  padding: 0.08em 0.42em;
+  margin-right: 0;
+  margin-left: 0.4rem;
+  font-size: 0.625rem !important;
+  font-weight: 500;
+  vertical-align: 0.08em;
+  letter-spacing: 0.02em;
+  background-color: #4a9eda;
+}
