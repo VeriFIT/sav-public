@@ -22,7 +22,7 @@ zimní semestr 2026/2027
 
 *Zde se objevují upozornění na nové závažné informace, blížící se termíny apod.*
 
-* **Stream z přednášek** bude (snad) k dispozici na [YouTube](https://www.youtube.com/playlist?list=XXXXXXXXXXXXXXXXXXXXX).
+* **Stream/záznam z přednášek** je k dispozici na [YouTube](https://www.youtube.com/playlist?list=PLQ5zh2YCTsUY).
 
 ---
 
@@ -255,6 +255,8 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 - [Boolector](https://fmv.jku.at/boolector/)
 - [SMTInterpol](https://ultimate.informatik.uni-freiburg.de/smtinterpol/)
 - [what4](https://www.galois.com/articles/what4-new-library-to-help-devs-build-verification-program-tools) -- knihovna pro tvorbu analyzátorů nad SMT
+- [Amaya](https://github.com/MichalHe/amaya) -- nástroj pro rozhodování splnitelnosti formulí lineární celočíselné aritmetiky **FIT VUT**{: .label .label-fit }
+
 
 - [Z3str3RE](https://z3string.github.io/z3str3RE/readme.html) a [Z3str4](https://z3str4.github.io/) -- nástroje pro ověřování splnitelnosti formulí nad řetězci postavené nad SMT solverem Z3
 - [Z3-Noodler](https://github.com/VeriFIT/Z3-Noodler) -- nástroj pro ověřování splnitelnosti formulí nad řetězci **FIT VUT**{: .label .label-fit }
