@@ -54,7 +54,7 @@ Informace o projektu budou k dispozici.
 
 ## Přednášky
 
-* [Úvod, základní pojmy](XXXXXXXXXXXXXXXXXX)
+* [Úvod, základní pojmy](2026/sav26-intro.pdf)
 
 další přednášky budou průběžně doplňovány
 
