@@ -56,6 +56,8 @@ Informace o projektu budou k dispozici.
 
 * [Úvod, základní pojmy]({{ '2026/sav26-intro.pdf' | relative_url }})
   ([handout]({{ '2026/sav26-intro-handout.pdf' | relative_url }}))
+* [Temporální logiky CTL*, CTL, LTL (a lehký úvod do explicitního CTL model checkingu)]({{ '2026/sav26-temp-logics.pdf' | relative_url }})
+  ([handout]({{ '2026/sav26-temp-logics-handout.pdf' | relative_url }}))
 
 další přednášky budou průběžně doplňovány
 
