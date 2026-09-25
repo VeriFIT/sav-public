@@ -103,3 +103,12 @@
   letter-spacing: 0.02em;
   background-color: #4a9eda;
 }
+
+// Build time at the foot of the page -- for checking that a push has landed,
+// not for readers, so it is kept small and faint.
+.build-stamp {
+  margin-top: 0.5rem;
+  font-size: 0.6875rem;
+  color: $grey-dk-000;
+  opacity: 0.6;
+}

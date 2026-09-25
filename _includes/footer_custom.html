@@ -1,0 +1,9 @@
+{%- comment -%}
+  Build stamp, to tell at a glance whether a push has landed. site.time is when
+  Jekyll ran, in the timezone set in _config.yml; build_revision is supplied by
+  GitHub Pages and is empty in a local build.
+{%- endcomment -%}
+<p class="build-stamp">
+  {{ site.time | date: "%-d. %-m. %Y %H:%M" }}
+  {%- if site.github.build_revision %} · {{ site.github.build_revision | slice: 0, 7 }}{% endif %}
+</p>

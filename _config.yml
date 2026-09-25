@@ -2,6 +2,10 @@ title: SAV
 description: "Statická analýza a verifikace -- informace pro studenty, FIT VUT"
 lang: cs
 
+# Used for the build stamp in the footer (_includes/footer_custom.html);
+# GitHub's builders otherwise run in UTC.
+timezone: Europe/Prague
+
 author:
   name: Ondřej Lengál
   email: "lengal@fit.vutbr.cz"
