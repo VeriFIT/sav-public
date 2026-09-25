@@ -105,10 +105,11 @@
 }
 
 // Build time at the foot of the page -- for checking that a push has landed,
-// not for readers, so it is kept small and faint.
+// not for readers, so it is kept small, grey (like the copyright line) and
+// out of the way on the right.
 .build-stamp {
   margin-top: 0.5rem;
-  font-size: 0.6875rem;
-  color: $grey-dk-000;
-  opacity: 0.6;
+  font-size: 0.625rem;
+  color: $grey-dk-100;
+  text-align: right;
 }
