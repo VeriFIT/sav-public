@@ -58,12 +58,11 @@ Informace o projektu budou k dispozici.
   ([handout](2026/sav26-intro-handout.pdf))
 * [Temporální logiky CTL*, CTL, LTL (a lehký úvod do explicitního CTL model checkingu)](2026/sav26-temp-logics.pdf)
   ([handout](2026/sav26-temp-logics-handout.pdf))
+* [LTL model checking, Büchiho automaty](2026/sav26-buchi-ltl-mc.pdf) ([bez overlayů](2026/sav26-buchi-ltl-mc-handout.pdf))
 
 další přednášky budou průběžně doplňovány
 
 <!--
-* [Logiky CTL*, CTL, LTL (a lehký úvod do explicitního CTL model checkingu)](OLD-2025/Lectures/2025/sav-lecture-02.pdf)
-* [LTL model checking, Büchiho automaty](OLD-2025/Lectures/2025/sav-lecture-03-ltl-mc.pdf) ([bez overlayů](OLD-2025/Lectures/2025/sav-lecture-03-ltl-mc-fast.pdf))
 * [Predikátová abstrakce](OLD-2025/Lectures/2025/sav-lecture-04.pdf) + [příklad na procvičení predikátové abstrakce](OLD-2025/Lectures/2025/SAV-priklad-predikatova-abstrakce.pdf)
 * [Abstraktní interpretace](OLD-2025/Lectures/2025/sav-lecture-05.pdf), [svazy](OLD-2025/Lectures/2025/sav-lecture-05b.pdf), [redukovaný produkt (F. Nečas)](OLD-2025/Lectures/2025/reduced-product.pdf) + [příklad na procvičení abstraktní interpretace](OLD-2025/Lectures/2025/SAV-priklad-abstraktni-interpretace.pdf)
 * [Deduktivní verifikace](OLD-2025/Lectures/2025/sav-lecture-06.pdf)
