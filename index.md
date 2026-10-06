@@ -59,6 +59,7 @@ Informace o projektu budou k dispozici.
 * [Temporální logiky CTL*, CTL, LTL (a lehký úvod do explicitního CTL model checkingu)](2026/sav26-temp-logics.pdf)
   ([handout](2026/sav26-temp-logics-handout.pdf))
 * [LTL model checking, Büchiho automaty](2026/sav26-buchi-ltl-mc.pdf) ([bez overlayů](2026/sav26-buchi-ltl-mc-handout.pdf))
+* [Binární rozhodovací diagramy](2026/sav26-bdds.pdf) ([bez overlayů](2026/sav26-bdds-handout.pdf))
 
 další přednášky budou průběžně doplňovány
 
@@ -67,7 +68,6 @@ další přednášky budou průběžně doplňovány
 * [Abstraktní interpretace](OLD-2025/Lectures/2025/sav-lecture-05.pdf), [svazy](OLD-2025/Lectures/2025/sav-lecture-05b.pdf), [redukovaný produkt (F. Nečas)](OLD-2025/Lectures/2025/reduced-product.pdf) + [příklad na procvičení abstraktní interpretace](OLD-2025/Lectures/2025/SAV-priklad-abstraktni-interpretace.pdf)
 * [Deduktivní verifikace](OLD-2025/Lectures/2025/sav-lecture-06.pdf)
 * [Symbolická exekuce](OLD-2025/Lectures/2025/sav-lecture-07-symbolic-execution.pdf) ([bez overlayů](OLD-2025/Lectures/2025/sav-lecture-07-symbolic-execution-fast.pdf))
-* [Binární rozhodovací diagramy](OLD-2025/Lectures/2025/sav-lecture-08-bdds.pdf)
 * [Řešení SAT a SMT problémů](OLD-2025/Lectures/2025/sav-lecture-09.pdf)
 * [Analýza toku dat, ukazatelové analýzy](OLD-2025/Lectures/2025/sav-lecture-10.pdf) + [příklad na procvičení analýzy toku dat](OLD-2025/Lectures/2025/SAV-priklad-analyza-toku-dat.pdf)
 -->
