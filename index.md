@@ -37,6 +37,7 @@ zimní semestr 2026/2027
 * [Řešení SAT a SMT problémů](2026/sav26-sat-smt.pdf) ([bez overlayů](2026/sav26-sat-smt-handout.pdf))
 * [Svazy](2026/sav26-lattices.pdf) ([bez overlayů](2026/sav26-lattices-handout.pdf))
 * [Predikátová abstrakce](2026/sav26-predicate-abstraction.pdf) ([bez overlayů](2026/sav26-predicate-abstraction-handout.pdf))
+* [Symbolická exekuce](2026/sav26-symbolic-execution.pdf) ([bez overlayů](2026/sav26-symbolic-execution-handout.pdf))
 
 další přednášky budou průběžně doplňovány
 
@@ -44,7 +45,6 @@ další přednášky budou průběžně doplňovány
 *  + [příklad na procvičení predikátové abstrakce](OLD-2025/Lectures/2025/SAV-priklad-predikatova-abstrakce.pdf)
 * [Abstraktní interpretace](OLD-2025/Lectures/2025/sav-lecture-05.pdf), [redukovaný produkt (F. Nečas)](OLD-2025/Lectures/2025/reduced-product.pdf) + [příklad na procvičení abstraktní interpretace](OLD-2025/Lectures/2025/SAV-priklad-abstraktni-interpretace.pdf)
 * [Deduktivní verifikace](OLD-2025/Lectures/2025/sav-lecture-06.pdf)
-* [Symbolická exekuce](OLD-2025/Lectures/2025/sav-lecture-07-symbolic-execution.pdf) ([bez overlayů](OLD-2025/Lectures/2025/sav-lecture-07-symbolic-execution-fast.pdf))
 * [Analýza toku dat, ukazatelové analýzy](OLD-2025/Lectures/2025/sav-lecture-10.pdf) + [příklad na procvičení analýzy toku dat](OLD-2025/Lectures/2025/SAV-priklad-analyza-toku-dat.pdf)
 -->
 
