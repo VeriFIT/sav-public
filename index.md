@@ -30,31 +30,22 @@ zimní semestr 2026/2027
 
 * [Úvod, základní pojmy](2026/sav26-intro.pdf)
   ([handout](2026/sav26-intro-handout.pdf))
-
 * [Temporální logiky CTL*, CTL, LTL (a lehký úvod do explicitního CTL model checkingu)](2026/sav26-temp-logics.pdf)
   ([handout](2026/sav26-temp-logics-handout.pdf))
-
 * [LTL model checking, Büchiho automaty](2026/sav26-buchi-ltl-mc.pdf)
   ([handout](2026/sav26-buchi-ltl-mc-handout.pdf))
-
 * [Binární rozhodovací diagramy](2026/sav26-bdds.pdf)
   ([handout](2026/sav26-bdds-handout.pdf))
-
 * [Řešení SAT a SMT problémů](2026/sav26-sat-smt.pdf)
   ([handout](2026/sav26-sat-smt-handout.pdf))
-
 * [Svazy](2026/sav26-lattices.pdf)
   ([handout](2026/sav26-lattices-handout.pdf))
-
 * [Predikátová abstrakce](2026/sav26-predicate-abstraction.pdf)
   ([handout](2026/sav26-predicate-abstraction-handout.pdf))
-
 * [Symbolická exekuce](2026/sav26-symbolic-execution.pdf)
   ([handout](2026/sav26-symbolic-execution-handout.pdf))
-
 * [Abstraktní interpretace](2026/sav26-abstract-interpretation.pdf)
   ([handout](2026/sav26-abstract-interpretation-handout.pdf))
-
 * [Deduktivní verifikace](2026/sav26-deductive-verification.pdf)
   ([handout](2026/sav26-deductive-verification-handout.pdf))
 
