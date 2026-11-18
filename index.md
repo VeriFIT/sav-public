@@ -30,21 +30,39 @@ zimní semestr 2026/2027
 
 * [Úvod, základní pojmy](2026/sav26-intro.pdf)
   ([handout](2026/sav26-intro-handout.pdf))
+
 * [Temporální logiky CTL*, CTL, LTL (a lehký úvod do explicitního CTL model checkingu)](2026/sav26-temp-logics.pdf)
   ([handout](2026/sav26-temp-logics-handout.pdf))
-* [LTL model checking, Büchiho automaty](2026/sav26-buchi-ltl-mc.pdf) ([bez overlayů](2026/sav26-buchi-ltl-mc-handout.pdf))
-* [Binární rozhodovací diagramy](2026/sav26-bdds.pdf) ([bez overlayů](2026/sav26-bdds-handout.pdf))
-* [Řešení SAT a SMT problémů](2026/sav26-sat-smt.pdf) ([bez overlayů](2026/sav26-sat-smt-handout.pdf))
-* [Svazy](2026/sav26-lattices.pdf) ([bez overlayů](2026/sav26-lattices-handout.pdf))
-* [Predikátová abstrakce](2026/sav26-predicate-abstraction.pdf) ([bez overlayů](2026/sav26-predicate-abstraction-handout.pdf))
-* [Symbolická exekuce](2026/sav26-symbolic-execution.pdf) ([bez overlayů](2026/sav26-symbolic-execution-handout.pdf))
+
+* [LTL model checking, Büchiho automaty](2026/sav26-buchi-ltl-mc.pdf)
+  ([handout](2026/sav26-buchi-ltl-mc-handout.pdf))
+
+* [Binární rozhodovací diagramy](2026/sav26-bdds.pdf)
+  ([handout](2026/sav26-bdds-handout.pdf))
+
+* [Řešení SAT a SMT problémů](2026/sav26-sat-smt.pdf)
+  ([handout](2026/sav26-sat-smt-handout.pdf))
+
+* [Svazy](2026/sav26-lattices.pdf)
+  ([handout](2026/sav26-lattices-handout.pdf))
+
+* [Predikátová abstrakce](2026/sav26-predicate-abstraction.pdf)
+  ([handout](2026/sav26-predicate-abstraction-handout.pdf))
+
+* [Symbolická exekuce](2026/sav26-symbolic-execution.pdf)
+  ([handout](2026/sav26-symbolic-execution-handout.pdf))
+
+* [Abstraktní interpretace](2026/sav26-abstract-interpretation.pdf)
+  ([handout](2026/sav26-abstract-interpretation-handout.pdf))
+
+* [Deduktivní verifikace](2026/sav26-deductive-verification.pdf)
+  ([handout](2026/sav26-deductive-verification-handout.pdf))
 
 další přednášky budou průběžně doplňovány
 
 <!--
 *  + [příklad na procvičení predikátové abstrakce](OLD-2025/Lectures/2025/SAV-priklad-predikatova-abstrakce.pdf)
-* [Abstraktní interpretace](OLD-2025/Lectures/2025/sav-lecture-05.pdf), [redukovaný produkt (F. Nečas)](OLD-2025/Lectures/2025/reduced-product.pdf) + [příklad na procvičení abstraktní interpretace](OLD-2025/Lectures/2025/SAV-priklad-abstraktni-interpretace.pdf)
-* [Deduktivní verifikace](OLD-2025/Lectures/2025/sav-lecture-06.pdf)
+ [redukovaný produkt (F. Nečas)](OLD-2025/Lectures/2025/reduced-product.pdf) + [příklad na procvičení abstraktní interpretace](OLD-2025/Lectures/2025/SAV-priklad-abstraktni-interpretace.pdf)
 * [Analýza toku dat, ukazatelové analýzy](OLD-2025/Lectures/2025/sav-lecture-10.pdf) + [příklad na procvičení analýzy toku dat](OLD-2025/Lectures/2025/SAV-priklad-analyza-toku-dat.pdf)
 -->
 
