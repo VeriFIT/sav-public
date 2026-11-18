@@ -82,7 +82,7 @@ Informace o projektu budou k dispozici.
 
 * Termín odevzdání vypracované technické zprávy v pdf přes IS VUT/Moodle **BUDE UPŘESNĚN**.  <!-- **19. 12. 2025 12:00 CET**. -->
 
-* Průběžně doplňovaný seznam zaregistrovaných studentů pro řešení projektu je uveden [ZDE](XXXXXXXXXXXXXXX).
+* Průběžně doplňovaný seznam zaregistrovaných studentů pro řešení projektu je uveden [ZDE](https://www.fit.vut.cz/study/course/SAV/private/Projekt-SAV-2026.txt).
 
 * **Prémiové body** (až 10 za vynikající výkon): Analýza zaměřená na kód Linuxového jádra (či jiného otevřeného OS) či některého reálného open source software, zejména v případě nalezení reálných nareportovaných chyb.  Možnost kombinace s AI.
 
