@@ -284,7 +284,7 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 - [Facebook/Meta Infer Biabduction](https://fbinfer.com/docs/1.1.0/checker-biabduction/) -- nástroj založený na separační logice a tzv. bi-abdukci pro programy s ukazateli a seznamy
 - [Broom](https://pajda.fit.vutbr.cz/rogalew/broom/-/tree/v0.0.1) -- první prototyp nástroje založený na separační logice a bi-abdukci pro programy s ukazateli, seznamy a nízko-úrovňovou manipulací s pamětí **FIT VUT**{: .label .label-fit }
 
-- [VCC](https://www.microsoft.com/en-us/research/project/vcc-a-verifier-for-concurrent-c/) -- verifikace anotovaných programů v C
+- [VCC](https://www.microsoft.com/en-us/research/project/vcc-a-verifier-for-concurrent-c/) -- verifikace anotovaných programů v C [online playground](https://ondrik.github.io/vcc/)
 - [Nagini](https://github.com/marcoeilers/nagini) -- verifikace anotovaných programů v Pythonu
 - [ESC/Java2](https://web.archive.org/web/20231206163206/https://www.kindsoftware.com/products/opensource/escjava2/) -- verifikace anotovaných programů v Javě
 
