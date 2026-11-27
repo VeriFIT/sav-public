@@ -297,6 +297,7 @@ Zajímavý "experience report": M. Dodds. [What Works (and Doesn't) Selling Form
 - [Kofola](https://github.com/VeriFIT/kofola) -- nástroj pro decomposition-based komplementaci Büchiho automatů **FIT VUT**{: .label .label-fit }
 - [GOAL](https://goal.im.ntu.edu.tw/wiki/doku.php) -- Java knihovna a GUI pro interaktivní práci s automaty nad nekonečnými slovy
 - [Tempus Fugit](https://benkeks.itch.io/tempusfugit) -- počítačová hra učící základy temporální logiky LTL
+- [LTL Tutor](https://ltl-tutor.xyz/) -- procvičování LTL
 
 ### BDD
 
